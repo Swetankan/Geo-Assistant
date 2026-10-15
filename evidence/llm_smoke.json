@@ -1,0 +1,162 @@
+{
+  "synthetic": true,
+  "assessment_quality_evaluation": false,
+  "model": "qwen2.5-1.5b-instruct",
+  "quantization": "Q4_K_M (GGUF filename; verify server metadata separately)",
+  "context_configured": 4096,
+  "response": {
+    "status": "local inference works"
+  },
+  "usage": {
+    "elapsed_seconds": 0.6723948999988352,
+    "eval_count": 16,
+    "tokens_per_second": 23.795540388583728,
+    "throughput_scope": "end-to-end request, includes prompt processing",
+    "decoding": {
+      "temperature": 0,
+      "top_p": 0.9,
+      "top_k": 40,
+      "seed": 42,
+      "max_tokens": 1200
+    },
+    "log_probabilities_supported": true,
+    "mean_token_log_probability": -0.02395192065307583
+  },
+  "extractions": [
+    {
+      "temperature": 0,
+      "entities": [
+        {
+          "id": "entity_166294f9ff75d195654a4ee6",
+          "type": "Board",
+          "canonical_name": "CBSE",
+          "mentions": [
+            {
+              "start": 0,
+              "end": 4,
+              "chunk_id": "smoke"
+            }
+          ],
+          "attributes": {
+            "date": "2026-11-01",
+            "count": null,
+            "value": null,
+            "unit": null,
+            "location": null,
+            "osm_id": null,
+            "board": null,
+            "locality": null,
+            "synthetic": false
+          }
+        }
+      ],
+      "validated": true,
+      "validation_failures": [],
+      "usage": {
+        "elapsed_seconds": 2.148169499998403,
+        "eval_count": 38,
+        "tokens_per_second": 17.689479345102075,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.08197776092752843
+      }
+    },
+    {
+      "temperature": 0,
+      "entities": [
+        {
+          "id": "entity_166294f9ff75d195654a4ee6",
+          "type": "Board",
+          "canonical_name": "CBSE",
+          "mentions": [
+            {
+              "start": 0,
+              "end": 4,
+              "chunk_id": "smoke"
+            }
+          ],
+          "attributes": {
+            "date": "2026-11-01",
+            "count": null,
+            "value": null,
+            "unit": null,
+            "location": null,
+            "osm_id": null,
+            "board": null,
+            "locality": null,
+            "synthetic": false
+          }
+        }
+      ],
+      "validated": true,
+      "validation_failures": [],
+      "usage": {
+        "elapsed_seconds": 1.249532800000452,
+        "eval_count": 38,
+        "tokens_per_second": 30.411366552351613,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.08694222953733133
+      }
+    },
+    {
+      "temperature": 0.7,
+      "entities": [
+        {
+          "id": "entity_166294f9ff75d195654a4ee6",
+          "type": "Board",
+          "canonical_name": "CBSE",
+          "mentions": [
+            {
+              "start": 0,
+              "end": 4,
+              "chunk_id": "smoke"
+            }
+          ],
+          "attributes": {
+            "date": "2026-11-01",
+            "count": null,
+            "value": null,
+            "unit": null,
+            "location": null,
+            "osm_id": null,
+            "board": null,
+            "locality": null,
+            "synthetic": false
+          }
+        }
+      ],
+      "validated": true,
+      "validation_failures": [],
+      "usage": {
+        "elapsed_seconds": 1.3105792999995174,
+        "eval_count": 38,
+        "tokens_per_second": 28.99481168366843,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0.7,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.08694222953733133
+      }
+    }
+  ]
+}

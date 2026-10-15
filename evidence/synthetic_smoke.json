@@ -1,0 +1,291 @@
+{
+  "synthetic": true,
+  "answer": {
+    "answer": "Circular DEMO-2026 applies to CBSE. Circular DEMO-2026 mentions Lotus Demo School. Lotus Demo School is affiliated with CBSE. It offers 40 seats. Applications close on 2026-11-01. Circular DEMO-2026 supersedes Circular DEMO-2025.\n",
+    "citations": [
+      {
+        "start": 0,
+        "end": 230,
+        "chunk_id": "chunk_17460282cdfaba03180a1c36",
+        "source": "admissions.txt",
+        "page": null,
+        "excerpt": "Circular DEMO-2026 applies to CBSE. Circular DEMO-2026 mentions Lotus Demo School. Lotus Demo School is affiliated with CBSE. It offers 40 seats. Applications close on 2026-11-01. Circular DEMO-2026 supersedes Circular DEMO-2025.\n"
+      }
+    ],
+    "confidence": 0.0,
+    "entities_used": [
+      "entity_2d4ceea9b61691c558a0f09a"
+    ]
+  },
+  "trace": {
+    "mode": "synthetic_smoke",
+    "confidence_meaning": "Estimated relevance of the top reranked passage, not probability the whole answer is correct",
+    "settings": {
+      "top_k": 5,
+      "rrf_constant": 60,
+      "rerank_n": 20,
+      "num_candidates": 50,
+      "generation_temperature": 0
+    },
+    "graph_paths": [
+      {
+        "entity_id": "entity_166294f9ff75d195654a4ee6",
+        "edge_ids": [
+          "relation_7cd7c5f90c0773aef377893e"
+        ],
+        "node_ids": [
+          "entity_2d4ceea9b61691c558a0f09a",
+          "entity_166294f9ff75d195654a4ee6"
+        ]
+      },
+      {
+        "entity_id": "entity_d58a5b26628c169c18340c9d",
+        "edge_ids": [
+          "relation_1d6e19828485799b5c55070d"
+        ],
+        "node_ids": [
+          "entity_2d4ceea9b61691c558a0f09a",
+          "entity_d58a5b26628c169c18340c9d"
+        ]
+      },
+      {
+        "entity_id": "entity_1cbde2fa3c65521b925c4e35",
+        "edge_ids": [
+          "relation_7cd7c5f90c0773aef377893e",
+          "relation_71ad0c31cb0fd19136015832"
+        ],
+        "node_ids": [
+          "entity_2d4ceea9b61691c558a0f09a",
+          "entity_166294f9ff75d195654a4ee6",
+          "entity_1cbde2fa3c65521b925c4e35"
+        ]
+      },
+      {
+        "entity_id": "entity_7d1fa15c22beaccd588edcb7",
+        "edge_ids": [
+          "relation_7cd7c5f90c0773aef377893e",
+          "relation_cee9e027ee524b3852aea316"
+        ],
+        "node_ids": [
+          "entity_2d4ceea9b61691c558a0f09a",
+          "entity_166294f9ff75d195654a4ee6",
+          "entity_7d1fa15c22beaccd588edcb7"
+        ]
+      },
+      {
+        "entity_id": "entity_a49df6514f78ff5ae5f8549e",
+        "edge_ids": [
+          "relation_7cd7c5f90c0773aef377893e",
+          "relation_1879b19b164ff9a357dc9f80"
+        ],
+        "node_ids": [
+          "entity_2d4ceea9b61691c558a0f09a",
+          "entity_166294f9ff75d195654a4ee6",
+          "entity_a49df6514f78ff5ae5f8549e"
+        ]
+      },
+      {
+        "entity_id": "entity_ceb12fce8e7e5ffde5d097fc",
+        "edge_ids": [
+          "relation_7cd7c5f90c0773aef377893e",
+          "relation_0f022f96b58b75476fae9ba1"
+        ],
+        "node_ids": [
+          "entity_2d4ceea9b61691c558a0f09a",
+          "entity_166294f9ff75d195654a4ee6",
+          "entity_ceb12fce8e7e5ffde5d097fc"
+        ]
+      },
+      {
+        "entity_id": "entity_91dccba5b8221c009372dc6e",
+        "edge_ids": [
+          "relation_1d6e19828485799b5c55070d",
+          "relation_e355c854b8f5d2abbad74595"
+        ],
+        "node_ids": [
+          "entity_2d4ceea9b61691c558a0f09a",
+          "entity_d58a5b26628c169c18340c9d",
+          "entity_91dccba5b8221c009372dc6e"
+        ]
+      }
+    ],
+    "retrieved": [
+      {
+        "chunk_id": "chunk_17460282cdfaba03180a1c36",
+        "score": 0.03278688524590164,
+        "sources": [
+          "graph",
+          "synthetic_bm25"
+        ]
+      },
+      {
+        "chunk_id": "chunk_2bda3441ed3cf52fd02cf540",
+        "score": 0.031746031746031744,
+        "sources": [
+          "graph",
+          "synthetic_bm25"
+        ]
+      },
+      {
+        "chunk_id": "chunk_5bf1c3356c26c10f0c079d86",
+        "score": 0.03125,
+        "sources": [
+          "graph",
+          "synthetic_bm25"
+        ]
+      },
+      {
+        "chunk_id": "chunk_2324d897e70bfecdc9763d2e",
+        "score": 0.0304147465437788,
+        "sources": [
+          "graph",
+          "synthetic_bm25"
+        ]
+      },
+      {
+        "chunk_id": "chunk_ba863367a9132d68db20d81c",
+        "score": 0.029273504273504274,
+        "sources": [
+          "graph",
+          "synthetic_bm25"
+        ]
+      },
+      {
+        "chunk_id": "chunk_255ed67ee891f4cfb9c1356d",
+        "score": 0.016129032258064516,
+        "sources": [
+          "synthetic_bm25"
+        ]
+      },
+      {
+        "chunk_id": "chunk_903006d6e817eb257650ca0b",
+        "score": 0.015384615384615385,
+        "sources": [
+          "synthetic_bm25"
+        ]
+      },
+      {
+        "chunk_id": "chunk_ba485ef3192b0dba3b8ffa35",
+        "score": 0.015151515151515152,
+        "sources": [
+          "synthetic_bm25"
+        ]
+      },
+      {
+        "chunk_id": "chunk_44e365f986d3bec99b53a9c6",
+        "score": 0.014925373134328358,
+        "sources": [
+          "synthetic_bm25"
+        ]
+      },
+      {
+        "chunk_id": "chunk_17df9506dff06178c9534a71",
+        "score": 0.014705882352941176,
+        "sources": [
+          "synthetic_bm25"
+        ]
+      },
+      {
+        "chunk_id": "chunk_19b41bbcb546e7c22796ebef",
+        "score": 0.014492753623188406,
+        "sources": [
+          "synthetic_bm25"
+        ]
+      },
+      {
+        "chunk_id": "chunk_49b1839b8bd684f26f1b1571",
+        "score": 0.014084507042253521,
+        "sources": [
+          "synthetic_bm25"
+        ]
+      },
+      {
+        "chunk_id": "chunk_e22546a0cd42e92a13074a97",
+        "score": 0.0136986301369863,
+        "sources": [
+          "synthetic_bm25"
+        ]
+      },
+      {
+        "chunk_id": "chunk_80b848348b7d403586b4b83b",
+        "score": 0.013513513513513514,
+        "sources": [
+          "synthetic_bm25"
+        ]
+      }
+    ],
+    "reranked": [
+      {
+        "chunk_id": "chunk_17460282cdfaba03180a1c36",
+        "score": 0.03278688524590164,
+        "sources": [
+          "graph",
+          "synthetic_bm25"
+        ]
+      },
+      {
+        "chunk_id": "chunk_2bda3441ed3cf52fd02cf540",
+        "score": 0.031746031746031744,
+        "sources": [
+          "graph",
+          "synthetic_bm25"
+        ]
+      },
+      {
+        "chunk_id": "chunk_5bf1c3356c26c10f0c079d86",
+        "score": 0.03125,
+        "sources": [
+          "graph",
+          "synthetic_bm25"
+        ]
+      },
+      {
+        "chunk_id": "chunk_2324d897e70bfecdc9763d2e",
+        "score": 0.0304147465437788,
+        "sources": [
+          "graph",
+          "synthetic_bm25"
+        ]
+      },
+      {
+        "chunk_id": "chunk_ba863367a9132d68db20d81c",
+        "score": 0.029273504273504274,
+        "sources": [
+          "graph",
+          "synthetic_bm25"
+        ]
+      }
+    ],
+    "entities": [
+      {
+        "id": "entity_2d4ceea9b61691c558a0f09a",
+        "type": "School",
+        "canonical_name": "Lotus Demo School",
+        "mentions": [
+          {
+            "start": 64,
+            "end": 81,
+            "chunk_id": "chunk_17460282cdfaba03180a1c36"
+          },
+          {
+            "start": 83,
+            "end": 100,
+            "chunk_id": "chunk_17460282cdfaba03180a1c36"
+          }
+        ],
+        "attributes": {
+          "date": null,
+          "count": null,
+          "value": null,
+          "unit": null,
+          "location": null,
+          "osm_id": null,
+          "board": null,
+          "locality": null,
+          "synthetic": true
+        }
+      }
+    ],
+    "confidence_status": "Uncalibrated demo; value is a sentinel, not an assessed probability"
+  }
+}

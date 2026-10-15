@@ -1,0 +1,27 @@
+{
+  "parameter": "rrf_constant",
+  "value": 20,
+  "objective": "tune graph_hybrid nDCG@5",
+  "tune_ids": [
+    "syn_q_01",
+    "syn_q_02",
+    "syn_q_03",
+    "syn_q_04",
+    "syn_q_05",
+    "syn_q_06",
+    "syn_q_07",
+    "syn_q_08",
+    "syn_q_09",
+    "syn_q_10",
+    "syn_q_11",
+    "syn_q_12",
+    "syn_q_13",
+    "syn_q_14",
+    "syn_q_15",
+    "syn_q_16",
+    "syn_q_17",
+    "syn_q_18",
+    "syn_q_19",
+    "syn_q_20"
+  ]
+}

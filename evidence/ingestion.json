@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "username": "rag_app",
+    "roles": [
+      "rag_app"
+    ]
+  },
+  "counts": [
+    {
+      "chunks": 1078,
+      "entities": 1156,
+      "relations": 142
+    },
+    {
+      "chunks": 1078,
+      "entities": 1156,
+      "relations": 142
+    }
+  ],
+  "idempotent": true,
+  "input_counts": {
+    "chunks": 1078,
+    "entities": 1144,
+    "relations": 116
+  }
+}

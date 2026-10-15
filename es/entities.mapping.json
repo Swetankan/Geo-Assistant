@@ -1,0 +1,70 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0
+  },
+  "mappings": {
+    "dynamic": "strict",
+    "properties": {
+      "id": {
+        "type": "keyword"
+      },
+      "type": {
+        "type": "keyword"
+      },
+      "canonical_name": {
+        "type": "text",
+        "fields": {
+          "raw": {
+            "type": "keyword"
+          }
+        }
+      },
+      "mentions": {
+        "type": "nested",
+        "properties": {
+          "chunk_id": {
+            "type": "keyword"
+          },
+          "start": {
+            "type": "integer"
+          },
+          "end": {
+            "type": "integer"
+          }
+        }
+      },
+      "attributes": {
+        "properties": {
+          "date": {
+            "type": "date"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "value": {
+            "type": "float"
+          },
+          "unit": {
+            "type": "keyword"
+          },
+          "location": {
+            "type": "geo_point"
+          },
+          "osm_id": {
+            "type": "keyword"
+          },
+          "board": {
+            "type": "keyword"
+          },
+          "locality": {
+            "type": "keyword"
+          },
+          "synthetic": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}

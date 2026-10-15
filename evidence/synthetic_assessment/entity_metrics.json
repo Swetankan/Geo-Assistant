@@ -1,0 +1,105 @@
+{
+  "synthetic": true,
+  "gold_generated_by_independent_pattern_annotation": true,
+  "rule_exact": {
+    "Board": {
+      "tp": 20,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Circular": {
+      "tp": 48,
+      "fp": 1,
+      "fn": 4,
+      "precision": 0.9795918367346939,
+      "recall": 0.9230769230769231,
+      "f1": 0.9504950495049506
+    },
+    "Date": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9473684210526315,
+      "f1": 0.972972972972973
+    },
+    "Quantity": {
+      "tp": 19,
+      "fp": 0,
+      "fn": 9,
+      "precision": 1.0,
+      "recall": 0.6785714285714286,
+      "f1": 0.8085106382978724
+    },
+    "Rule": {
+      "tp": 9,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1": 0.9473684210526316
+    },
+    "School": {
+      "tp": 56,
+      "fp": 12,
+      "fn": 0,
+      "precision": 0.8235294117647058,
+      "recall": 1.0,
+      "f1": 0.9032258064516129
+    }
+  },
+  "rule_relaxed": {
+    "Board": {
+      "tp": 20,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Circular": {
+      "tp": 48,
+      "fp": 1,
+      "fn": 4,
+      "precision": 0.9795918367346939,
+      "recall": 0.9230769230769231,
+      "f1": 0.9504950495049506
+    },
+    "Date": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9473684210526315,
+      "f1": 0.972972972972973
+    },
+    "Quantity": {
+      "tp": 19,
+      "fp": 0,
+      "fn": 9,
+      "precision": 1.0,
+      "recall": 0.6785714285714286,
+      "f1": 0.8085106382978724
+    },
+    "Rule": {
+      "tp": 9,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1": 0.9473684210526316
+    },
+    "School": {
+      "tp": 56,
+      "fp": 12,
+      "fn": 0,
+      "precision": 0.8235294117647058,
+      "recall": 1.0,
+      "f1": 0.9032258064516129
+    }
+  },
+  "llm": "not evaluated: smoke extractor failed strict validation"
+}

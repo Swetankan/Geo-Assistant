@@ -1,0 +1,17 @@
+{
+  "synthetic_layers": {
+    "roads": 12,
+    "landuse": 12
+  },
+  "counts": {
+    "schools": 1062,
+    "roads": 12,
+    "landuse": 12
+  },
+  "access": {
+    "anonymous_status": 401,
+    "authenticated_status": 200,
+    "passed": true
+  },
+  "disclosure": "Road and landuse geometries are synthetic demos, not OSM or surveyed features."
+}

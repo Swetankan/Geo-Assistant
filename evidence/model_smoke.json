@@ -1,0 +1,107 @@
+{
+  "synthetic": true,
+  "assessment_quality_evaluation": false,
+  "embeddings": [
+    {
+      "source": "intfloat/e5-small-v2",
+      "dimensions": 384,
+      "load_seconds": 23.758744799999477,
+      "encode_seconds": 0.05655259999912232,
+      "chunks_per_second": 35.36530592812778,
+      "process_rss_bytes": 611581952,
+      "top_ids": [
+        "chunk_e9de0f06441842d246bb6ce6",
+        "chunk_255ed67ee891f4cfb9c1356d"
+      ],
+      "unit_norms": true
+    },
+    {
+      "source": "sentence-transformers/all-MiniLM-L6-v2",
+      "dimensions": 384,
+      "load_seconds": 0.21985169999970822,
+      "encode_seconds": 0.026615500000843895,
+      "chunks_per_second": 75.1441828985586,
+      "process_rss_bytes": 716488704,
+      "top_ids": [
+        "chunk_e9de0f06441842d246bb6ce6",
+        "chunk_255ed67ee891f4cfb9c1356d"
+      ],
+      "unit_norms": true
+    }
+  ],
+  "reranker": {
+    "source": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "score_type": "logit",
+    "runs": [
+      {
+        "batch_size": 1,
+        "seconds": 0.027890999999726773,
+        "scores": [
+          {
+            "chunk_id": "chunk_e9de0f06441842d246bb6ce6",
+            "score": 8.621003150939941,
+            "sources": [
+              "exact_vector",
+              "cross_encoder"
+            ]
+          },
+          {
+            "chunk_id": "chunk_255ed67ee891f4cfb9c1356d",
+            "score": 1.4499350786209106,
+            "sources": [
+              "exact_vector",
+              "cross_encoder"
+            ]
+          }
+        ],
+        "repeated_order_equal": true
+      },
+      {
+        "batch_size": 2,
+        "seconds": 0.025260200000047917,
+        "scores": [
+          {
+            "chunk_id": "chunk_e9de0f06441842d246bb6ce6",
+            "score": 8.621003150939941,
+            "sources": [
+              "exact_vector",
+              "cross_encoder"
+            ]
+          },
+          {
+            "chunk_id": "chunk_255ed67ee891f4cfb9c1356d",
+            "score": 1.4499340057373047,
+            "sources": [
+              "exact_vector",
+              "cross_encoder"
+            ]
+          }
+        ],
+        "repeated_order_equal": true
+      },
+      {
+        "batch_size": 8,
+        "seconds": 0.023448100000678096,
+        "scores": [
+          {
+            "chunk_id": "chunk_e9de0f06441842d246bb6ce6",
+            "score": 8.621003150939941,
+            "sources": [
+              "exact_vector",
+              "cross_encoder"
+            ]
+          },
+          {
+            "chunk_id": "chunk_255ed67ee891f4cfb9c1356d",
+            "score": 1.4499340057373047,
+            "sources": [
+              "exact_vector",
+              "cross_encoder"
+            ]
+          }
+        ],
+        "repeated_order_equal": true
+      }
+    ]
+  }
+}

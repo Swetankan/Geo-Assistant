@@ -1,0 +1,50 @@
+{
+  "python": "3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "cpu_count": 12,
+  "ram_bytes": 16904400896,
+  "packages": {
+    "numpy": "2.2.6",
+    "pydantic": "2.14.1",
+    "pytest": "9.1.1",
+    "httpx": "0.28.1",
+    "shapely": "2.1.2",
+    "pyproj": "3.7.1",
+    "streamlit": "1.65.0",
+    "pypdf": "6.20.1",
+    "networkx": "3.4.2"
+  },
+  "executables": {
+    "docker": false,
+    "ollama": false,
+    "java": false,
+    "git": true,
+    "nvidia-smi": true
+  },
+  "ports": {
+    "9200": false,
+    "5601": false,
+    "8080": false,
+    "11434": false,
+    "8000": false,
+    "1234": false
+  },
+  "gpkg": [
+    {
+      "table": "gis_osm_buildings_a_free_1",
+      "kind": "features",
+      "srs": 4326,
+      "columns": [
+        "fid",
+        "geom",
+        "osm_id",
+        "code",
+        "fclass",
+        "name",
+        "type"
+      ],
+      "count": 1062,
+      "named_count": 623
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "identity": {
+    "username": "rag_app",
+    "roles": [
+      "rag_app"
+    ]
+  },
+  "page_size": 10,
+  "first_page_ids": [
+    "chunk_0016646a9895962fd1a7e2e1",
+    "chunk_003493f72803245d8f84f6d6",
+    "chunk_00453092c6f90e10cb2b3038",
+    "chunk_006dcfb270bd0870400c7882",
+    "chunk_00abbf891f2c5b64572b59cb",
+    "chunk_00e8da526ef11f686bcad099",
+    "chunk_00f7f98d1394c19d55bc8750",
+    "chunk_017b5abf58a7fcd3ce3aaf86",
+    "chunk_01aa9e82db952bdc891ee080",
+    "chunk_01b916ee234937f81f5a318a"
+  ],
+  "second_page_ids": [
+    "chunk_028153e768000c483be42114",
+    "chunk_029745555905d0952277f344",
+    "chunk_02b96b61aca213e33bf29226",
+    "chunk_032ffa4e020e49415308e428",
+    "chunk_03934991815df96a6c13a45b",
+    "chunk_03e7454a46ac52c111d12ac4",
+    "chunk_03f03e5ac2f6f253009268d3",
+    "chunk_045e98dbd41b53f1af3513bb",
+    "chunk_04a0d3980a57babed5aec835",
+    "chunk_04f16adc035d33a5f989b517"
+  ],
+  "pages_disjoint": true,
+  "both_pages_full": true,
+  "method": "PIT with stable id and _shard_doc sorts; search_after from last hit"
+}

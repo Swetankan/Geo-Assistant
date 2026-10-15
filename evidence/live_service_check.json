@@ -1,0 +1,90 @@
+{
+  "elasticsearch": {
+    "version": "8.19.0",
+    "health": {
+      "cluster_name": "east-india-local",
+      "status": "green",
+      "timed_out": false,
+      "number_of_nodes": 1,
+      "number_of_data_nodes": 1,
+      "active_primary_shards": 47,
+      "active_shards": 47,
+      "relocating_shards": 0,
+      "initializing_shards": 0,
+      "unassigned_shards": 0,
+      "unassigned_primary_shards": 0,
+      "delayed_unassigned_shards": 0,
+      "number_of_pending_tasks": 0,
+      "number_of_in_flight_fetch": 0,
+      "task_max_waiting_in_queue_millis": 0,
+      "active_shards_percent_as_number": 100.0
+    },
+    "app_identity": {
+      "username": "rag_app",
+      "roles": [
+        "rag_app"
+      ]
+    },
+    "role_indices": [
+      {
+        "names": [
+          "east_india_chunks",
+          "east_india_entities",
+          "east_india_relations"
+        ],
+        "privileges": [
+          "read",
+          "write",
+          "view_index_metadata"
+        ],
+        "allow_restricted_indices": false
+      }
+    ],
+    "role_cluster_privileges": [],
+    "counts": {
+      "chunks": 1078,
+      "entities": 1156,
+      "relations": 142
+    }
+  },
+  "kibana": {
+    "status_code": 200,
+    "available": true
+  },
+  "llama_cpp": {
+    "health_status": 200,
+    "available": true,
+    "configured_model": "qwen2.5-1.5b-instruct",
+    "parameter_count": "1.5B",
+    "quantization": "Q4_K_M",
+    "model_file_bytes": 1117320736,
+    "context_length_configured": 4096,
+    "process_rss_bytes": 1251442688,
+    "server_processes": [
+      {
+        "pid": 20892,
+        "rss_bytes": 536576
+      },
+      {
+        "pid": 30140,
+        "rss_bytes": 1250906112
+      }
+    ],
+    "tokens_per_second_from_smoke": 23.795540388583728
+  },
+  "primary_embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "geoserver": {
+    "version": "2.27.2",
+    "access": {
+      "anonymous_status": 401,
+      "authenticated_status": 200,
+      "passed": true
+    },
+    "feature_counts": {
+      "schools": 1062,
+      "roads": 12,
+      "landuse": 12
+    },
+    "roads_landuse_synthetic": true
+  }
+}

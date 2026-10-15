@@ -1,0 +1,932 @@
+{
+  "synthetic_data": true,
+  "warning": "Questions and policies are fictional. No independent human answer/citation labels were supplied.",
+  "results": [
+    {
+      "id": "syn_dev_01",
+      "question": "How many seats does the fictional notice give Vivekananda High School?",
+      "synthetic_question": true,
+      "entities_found": [
+        {
+          "id": "entity_b0f2ec40c0195beb1e64485d",
+          "type": "School",
+          "canonical_name": "Vivekananda High School",
+          "mentions": [
+            {
+              "start": 282,
+              "end": 305,
+              "chunk_id": "chunk_5bf1c3356c26c10f0c079d86"
+            },
+            {
+              "start": 388,
+              "end": 411,
+              "chunk_id": "chunk_5bf1c3356c26c10f0c079d86"
+            },
+            {
+              "start": 441,
+              "end": 464,
+              "chunk_id": "chunk_5bf1c3356c26c10f0c079d86"
+            },
+            {
+              "start": 529,
+              "end": 552,
+              "chunk_id": "chunk_5bf1c3356c26c10f0c079d86"
+            }
+          ],
+          "attributes": {
+            "date": null,
+            "count": null,
+            "value": null,
+            "unit": null,
+            "location": {
+              "lat": 26.3075395,
+              "lon": 89.45045518844526
+            },
+            "osm_id": "130277882",
+            "board": null,
+            "locality": null,
+            "synthetic": false
+          }
+        }
+      ],
+      "top_passages": [
+        {
+          "chunk_id": "chunk_5bf1c3356c26c10f0c079d86",
+          "score": 6.5640974044799805,
+          "text": "# Synthetic Circular CIRC-2026-01: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-02-15 by the fictional East India District Education Office. Synthetic scenario reference school: Vivekananda High School (OSM ID 130277882).\r\n\r\nCircular CIRC-2026-01 applies to CBSE schools and mentions Vivekananda High School. In this fictional scenario, Vivekananda High School is affiliated with CBSE.\r\n\r\n## Fict"
+        },
+        {
+          "chunk_id": "chunk_955412381279136d24a06e8f",
+          "score": 0.12566730380058289,
+          "text": "Vivekananda High School. OSM ID: 130277882. Representative location: latitude 26.3075395, longitude 89.4504552. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_17df9506dff06178c9534a71",
+          "score": -0.4083997309207916,
+          "text": "# Synthetic Circular CIRC-2026-09: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-10-15 by the fictional East India District Education Office. Synthetic scenario reference school: Baranagar Ramakrishna Mission Ashrama High School (OSM ID 284535702).\r\n\r\nCircular CIRC-2026-09 applies to WBBSE schools and mentions Baranagar Ramakrishna Mission Ashrama High School. In this fictional scenario, Barana"
+        },
+        {
+          "chunk_id": "chunk_f685e9410252c0144dc8f874",
+          "score": -1.0872620344161987,
+          "text": "Vivekananda School. OSM ID: 636399655. Representative location: latitude 22.5645382, longitude 88.3142162. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_03e7454a46ac52c111d12ac4",
+          "score": -1.6548728942871094,
+          "text": "Harit Vivekananda Bidyabhavan. OSM ID: 1443442455. Representative location: latitude 22.9242076, longitude 88.2599457. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        }
+      ],
+      "confidence": 0.0,
+      "answer": "I cannot answer this from the available sources",
+      "citations": [],
+      "citations_retrieved_check": true,
+      "answer_correct": null,
+      "citation_correct": null,
+      "abstained": true,
+      "trace_reason": "Fit-only calibration and supported abstention threshold not available",
+      "synthetic": true
+    },
+    {
+      "id": "syn_dev_02",
+      "question": "Which board is named for Railway Mixed School?",
+      "synthetic_question": true,
+      "entities_found": [
+        {
+          "id": "entity_237f0928d4fbfaf5a868c256",
+          "type": "School",
+          "canonical_name": "Railway Mixed School",
+          "mentions": [
+            {
+              "start": 282,
+              "end": 302,
+              "chunk_id": "chunk_903006d6e817eb257650ca0b"
+            },
+            {
+              "start": 385,
+              "end": 405,
+              "chunk_id": "chunk_903006d6e817eb257650ca0b"
+            },
+            {
+              "start": 435,
+              "end": 455,
+              "chunk_id": "chunk_903006d6e817eb257650ca0b"
+            },
+            {
+              "start": 520,
+              "end": 540,
+              "chunk_id": "chunk_903006d6e817eb257650ca0b"
+            }
+          ],
+          "attributes": {
+            "date": null,
+            "count": null,
+            "value": null,
+            "unit": null,
+            "location": {
+              "lat": 22.341203,
+              "lon": 87.29928596628974
+            },
+            "osm_id": "133348852",
+            "board": null,
+            "locality": null,
+            "synthetic": false
+          }
+        }
+      ],
+      "top_passages": [
+        {
+          "chunk_id": "chunk_903006d6e817eb257650ca0b",
+          "score": 4.302430152893066,
+          "text": "# Synthetic Circular CIRC-2026-02: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-03-15 by the fictional East India District Education Office. Synthetic scenario reference school: Railway Mixed School (OSM ID 133348852).\r\n\r\nCircular CIRC-2026-02 applies to ICSE schools and mentions Railway Mixed School. In this fictional scenario, Railway Mixed School is affiliated with ICSE.\r\n\r\n## Fictional eli"
+        },
+        {
+          "chunk_id": "chunk_80a7116f5139eb412579c5aa",
+          "score": 4.136568546295166,
+          "text": "Railway Mixed School. OSM ID: 133348852. Representative location: latitude 22.3412030, longitude 87.2992860. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_303819899e3fbdd7336d43d8",
+          "score": -2.3884143829345703,
+          "text": "Eastern Railway High School. OSM ID: 345753958. Representative location: latitude 23.5778860, longitude 87.1889001. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_e0b8af5da4bb96ae0677f837",
+          "score": -9.194486618041992,
+          "text": "\u09b8\u09bf\u09aa\u09be\u0987 \u09aa\u09be\u09a1\u09bc\u09be \u09b8\u09b0\u0995\u09be\u09b0\u09bf \u09aa\u09cd\u09b0\u09be\u09a5\u09ae\u09bf\u0995 \u09ac\u09bf\u09a6\u09cd\u09af\u09be\u09b2\u09af. OSM ID: 545737551. Representative location: latitude 26.5895531, longitude 88.3942835. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_742a4c6d805f214761fae68e",
+          "score": -9.216711044311523,
+          "text": "Board of Intermediate & Secondary Education Rajshahi\t,Rajshahi. OSM ID: 554602706. Representative location: latitude 24.3735418, longitude 88.5827634. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        }
+      ],
+      "confidence": 0.0,
+      "answer": "I cannot answer this from the available sources",
+      "citations": [],
+      "citations_retrieved_check": true,
+      "answer_correct": null,
+      "citation_correct": null,
+      "abstained": true,
+      "trace_reason": "Fit-only calibration and supported abstention threshold not available",
+      "synthetic": true
+    },
+    {
+      "id": "syn_dev_03",
+      "question": "When is the fictional application deadline for Pannalal Institute of Secondary Education?",
+      "synthetic_question": true,
+      "entities_found": [
+        {
+          "id": "entity_5c0cd271c46825d8aff5c785",
+          "type": "School",
+          "canonical_name": "Pannalal Institute of Secondary Education",
+          "mentions": [
+            {
+              "start": 282,
+              "end": 323,
+              "chunk_id": "chunk_80b848348b7d403586b4b83b"
+            },
+            {
+              "start": 407,
+              "end": 448,
+              "chunk_id": "chunk_80b848348b7d403586b4b83b"
+            },
+            {
+              "start": 478,
+              "end": 519,
+              "chunk_id": "chunk_80b848348b7d403586b4b83b"
+            },
+            {
+              "start": 585,
+              "end": 626,
+              "chunk_id": "chunk_80b848348b7d403586b4b83b"
+            }
+          ],
+          "attributes": {
+            "date": null,
+            "count": null,
+            "value": null,
+            "unit": null,
+            "location": {
+              "lat": 22.97330805,
+              "lon": 88.43890492173662
+            },
+            "osm_id": "147001916",
+            "board": null,
+            "locality": null,
+            "synthetic": false
+          }
+        }
+      ],
+      "top_passages": [
+        {
+          "chunk_id": "chunk_80b848348b7d403586b4b83b",
+          "score": 5.8262481689453125,
+          "text": "# Synthetic Circular CIRC-2026-03: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-04-15 by the fictional East India District Education Office. Synthetic scenario reference school: Pannalal Institute of Secondary Education (OSM ID 147001916).\r\n\r\nCircular CIRC-2026-03 applies to WBBSE schools and mentions Pannalal Institute of Secondary Education. In this fictional scenario, Pannalal Institute of "
+        },
+        {
+          "chunk_id": "chunk_a80da2debc6e7b757f5b53ac",
+          "score": -0.5790920853614807,
+          "text": "Pannalal Institute of Secondary Education. OSM ID: 147001916. Representative location: latitude 22.9733080, longitude 88.4389049. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_e22546a0cd42e92a13074a97",
+          "score": -2.9558639526367188,
+          "text": "# Synthetic Circular CIRC-2026-05: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-06-15 by the fictional East India District Education Office. Synthetic scenario reference school: BSS collegiate (OSM ID 159457113).\r\n\r\nCircular CIRC-2026-05 applies to ICSE schools and mentions BSS collegiate. In this fictional scenario, BSS collegiate is affiliated with ICSE.\r\n\r\n## Fictional eligibility and seats"
+        },
+        {
+          "chunk_id": "chunk_49b1839b8bd684f26f1b1571",
+          "score": -3.358919143676758,
+          "text": "# Synthetic Circular CIRC-2026-06: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-07-15 by the fictional East India District Education Office. Synthetic scenario reference school: MJK College (OSM ID 193901165).\r\n\r\nCircular CIRC-2026-06 applies to WBBSE schools and mentions MJK College. In this fictional scenario, MJK College is affiliated with WBBSE.\r\n\r\n## Fictional eligibility and seats\r\nMJK C"
+        },
+        {
+          "chunk_id": "chunk_2324d897e70bfecdc9763d2e",
+          "score": -3.4802911281585693,
+          "text": "# Synthetic Circular CIRC-2026-07: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-08-15 by the fictional East India District Education Office. Synthetic scenario reference school: Midnapore ITI (OSM ID 208918257).\r\n\r\nCircular CIRC-2026-07 applies to CBSE schools and mentions Midnapore ITI. In this fictional scenario, Midnapore ITI is affiliated with CBSE.\r\n\r\n## Fictional eligibility and seats\r\nM"
+        }
+      ],
+      "confidence": 0.0,
+      "answer": "I cannot answer this from the available sources",
+      "citations": [],
+      "citations_retrieved_check": true,
+      "answer_correct": null,
+      "citation_correct": null,
+      "abstained": true,
+      "trace_reason": "Fit-only calibration and supported abstention threshold not available",
+      "synthetic": true
+    },
+    {
+      "id": "syn_dev_04",
+      "question": "What minimum age does the notice state for DAV Lalpania?",
+      "synthetic_question": true,
+      "entities_found": [
+        {
+          "id": "entity_453edb405c5d2d933baa44f9",
+          "type": "School",
+          "canonical_name": "DAV Lalpania",
+          "mentions": [
+            {
+              "start": 282,
+              "end": 294,
+              "chunk_id": "chunk_ba863367a9132d68db20d81c"
+            },
+            {
+              "start": 377,
+              "end": 389,
+              "chunk_id": "chunk_ba863367a9132d68db20d81c"
+            },
+            {
+              "start": 419,
+              "end": 431,
+              "chunk_id": "chunk_ba863367a9132d68db20d81c"
+            },
+            {
+              "start": 496,
+              "end": 508,
+              "chunk_id": "chunk_ba863367a9132d68db20d81c"
+            }
+          ],
+          "attributes": {
+            "date": null,
+            "count": null,
+            "value": null,
+            "unit": null,
+            "location": {
+              "lat": 23.7478348,
+              "lon": 85.7550555244004
+            },
+            "osm_id": "149824587",
+            "board": null,
+            "locality": null,
+            "synthetic": false
+          }
+        }
+      ],
+      "top_passages": [
+        {
+          "chunk_id": "chunk_ba863367a9132d68db20d81c",
+          "score": 2.812134265899658,
+          "text": "# Synthetic Circular CIRC-2026-04: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-05-15 by the fictional East India District Education Office. Synthetic scenario reference school: DAV Lalpania (OSM ID 149824587).\r\n\r\nCircular CIRC-2026-04 applies to CBSE schools and mentions DAV Lalpania. In this fictional scenario, DAV Lalpania is affiliated with CBSE.\r\n\r\n## Fictional eligibility and seats\r\nDAV "
+        },
+        {
+          "chunk_id": "chunk_5594399320980e1f50e0f1c6",
+          "score": -2.288984775543213,
+          "text": "DAV Lalpania. OSM ID: 149824587. Representative location: latitude 23.7478348, longitude 85.7550555. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_c37a3748971446032c1b412d",
+          "score": -9.476300239562988,
+          "text": "DAV Public School, Rajabagicha. OSM ID: 489216412. Representative location: latitude 20.4582037, longitude 85.8767934. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_339611e42e90706c7c8704ce",
+          "score": -9.8981294631958,
+          "text": "DAV Public School Senior Wing, Gandhinagar. OSM ID: 750744729. Representative location: latitude 23.4077967, longitude 85.3224390. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_ece2e3f90bc43795f8620aec",
+          "score": -10.102834701538086,
+          "text": "DAV Public School. OSM ID: 1383612049. Representative location: latitude 23.6699158, longitude 86.1513162. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        }
+      ],
+      "confidence": 0.0,
+      "answer": "I cannot answer this from the available sources",
+      "citations": [],
+      "citations_retrieved_check": true,
+      "answer_correct": null,
+      "citation_correct": null,
+      "abstained": true,
+      "trace_reason": "Fit-only calibration and supported abstention threshold not available",
+      "synthetic": true
+    },
+    {
+      "id": "syn_dev_05",
+      "question": "What invented cutoff is listed for BSS collegiate?",
+      "synthetic_question": true,
+      "entities_found": [
+        {
+          "id": "entity_74fe9b3ea02c28dc96e78b52",
+          "type": "School",
+          "canonical_name": "BSS collegiate",
+          "mentions": [
+            {
+              "start": 282,
+              "end": 296,
+              "chunk_id": "chunk_e22546a0cd42e92a13074a97"
+            },
+            {
+              "start": 379,
+              "end": 393,
+              "chunk_id": "chunk_e22546a0cd42e92a13074a97"
+            },
+            {
+              "start": 423,
+              "end": 437,
+              "chunk_id": "chunk_e22546a0cd42e92a13074a97"
+            },
+            {
+              "start": 502,
+              "end": 516,
+              "chunk_id": "chunk_e22546a0cd42e92a13074a97"
+            }
+          ],
+          "attributes": {
+            "date": null,
+            "count": null,
+            "value": null,
+            "unit": null,
+            "location": {
+              "lat": 25.4181391,
+              "lon": 86.1285485831561
+            },
+            "osm_id": "159457113",
+            "board": null,
+            "locality": null,
+            "synthetic": false
+          }
+        }
+      ],
+      "top_passages": [
+        {
+          "chunk_id": "chunk_e22546a0cd42e92a13074a97",
+          "score": 5.442661285400391,
+          "text": "# Synthetic Circular CIRC-2026-05: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-06-15 by the fictional East India District Education Office. Synthetic scenario reference school: BSS collegiate (OSM ID 159457113).\r\n\r\nCircular CIRC-2026-05 applies to ICSE schools and mentions BSS collegiate. In this fictional scenario, BSS collegiate is affiliated with ICSE.\r\n\r\n## Fictional eligibility and seats"
+        },
+        {
+          "chunk_id": "chunk_b79b0e39a9499f2e31198557",
+          "score": 1.443786382675171,
+          "text": "BSS collegiate. OSM ID: 159457113. Representative location: latitude 25.4181391, longitude 86.1285486. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_49b1839b8bd684f26f1b1571",
+          "score": -1.3506619930267334,
+          "text": "# Synthetic Circular CIRC-2026-06: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-07-15 by the fictional East India District Education Office. Synthetic scenario reference school: MJK College (OSM ID 193901165).\r\n\r\nCircular CIRC-2026-06 applies to WBBSE schools and mentions MJK College. In this fictional scenario, MJK College is affiliated with WBBSE.\r\n\r\n## Fictional eligibility and seats\r\nMJK C"
+        },
+        {
+          "chunk_id": "chunk_ba863367a9132d68db20d81c",
+          "score": -1.8024301528930664,
+          "text": "# Synthetic Circular CIRC-2026-04: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-05-15 by the fictional East India District Education Office. Synthetic scenario reference school: DAV Lalpania (OSM ID 149824587).\r\n\r\nCircular CIRC-2026-04 applies to CBSE schools and mentions DAV Lalpania. In this fictional scenario, DAV Lalpania is affiliated with CBSE.\r\n\r\n## Fictional eligibility and seats\r\nDAV "
+        },
+        {
+          "chunk_id": "chunk_19b41bbcb546e7c22796ebef",
+          "score": -2.4167935848236084,
+          "text": "# Synthetic Circular CIRC-2026-08: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-09-15 by the fictional East India District Education Office. Synthetic scenario reference school: Dinhata College (OSM ID 251790340).\r\n\r\nCircular CIRC-2026-08 applies to ICSE schools and mentions Dinhata College. In this fictional scenario, Dinhata College is affiliated with ICSE.\r\n\r\n## Fictional eligibility and se"
+        }
+      ],
+      "confidence": 0.0,
+      "answer": "I cannot answer this from the available sources",
+      "citations": [],
+      "citations_retrieved_check": true,
+      "answer_correct": null,
+      "citation_correct": null,
+      "abstained": true,
+      "trace_reason": "Fit-only calibration and supported abstention threshold not available",
+      "synthetic": true
+    },
+    {
+      "id": "syn_dev_06",
+      "question": "Which circular mentions MJK College?",
+      "synthetic_question": true,
+      "entities_found": [
+        {
+          "id": "entity_f166047032244025270321df",
+          "type": "School",
+          "canonical_name": "MJK College",
+          "mentions": [
+            {
+              "start": 282,
+              "end": 293,
+              "chunk_id": "chunk_49b1839b8bd684f26f1b1571"
+            },
+            {
+              "start": 377,
+              "end": 388,
+              "chunk_id": "chunk_49b1839b8bd684f26f1b1571"
+            },
+            {
+              "start": 418,
+              "end": 429,
+              "chunk_id": "chunk_49b1839b8bd684f26f1b1571"
+            },
+            {
+              "start": 495,
+              "end": 506,
+              "chunk_id": "chunk_49b1839b8bd684f26f1b1571"
+            }
+          ],
+          "attributes": {
+            "date": null,
+            "count": null,
+            "value": null,
+            "unit": null,
+            "location": {
+              "lat": 26.79678115,
+              "lon": 84.51404029774761
+            },
+            "osm_id": "193901165",
+            "board": null,
+            "locality": null,
+            "synthetic": false
+          }
+        }
+      ],
+      "top_passages": [
+        {
+          "chunk_id": "chunk_49b1839b8bd684f26f1b1571",
+          "score": 7.722835540771484,
+          "text": "# Synthetic Circular CIRC-2026-06: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-07-15 by the fictional East India District Education Office. Synthetic scenario reference school: MJK College (OSM ID 193901165).\r\n\r\nCircular CIRC-2026-06 applies to WBBSE schools and mentions MJK College. In this fictional scenario, MJK College is affiliated with WBBSE.\r\n\r\n## Fictional eligibility and seats\r\nMJK C"
+        },
+        {
+          "chunk_id": "chunk_38e2231ae79ae88361aa21ed",
+          "score": 1.7547566890716553,
+          "text": "MJK College. OSM ID: 193901165. Representative location: latitude 26.7967812, longitude 84.5140403. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_19b41bbcb546e7c22796ebef",
+          "score": -0.30807924270629883,
+          "text": "# Synthetic Circular CIRC-2026-08: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-09-15 by the fictional East India District Education Office. Synthetic scenario reference school: Dinhata College (OSM ID 251790340).\r\n\r\nCircular CIRC-2026-08 applies to ICSE schools and mentions Dinhata College. In this fictional scenario, Dinhata College is affiliated with ICSE.\r\n\r\n## Fictional eligibility and se"
+        },
+        {
+          "chunk_id": "chunk_e22546a0cd42e92a13074a97",
+          "score": -0.81793612241745,
+          "text": "# Synthetic Circular CIRC-2026-05: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-06-15 by the fictional East India District Education Office. Synthetic scenario reference school: BSS collegiate (OSM ID 159457113).\r\n\r\nCircular CIRC-2026-05 applies to ICSE schools and mentions BSS collegiate. In this fictional scenario, BSS collegiate is affiliated with ICSE.\r\n\r\n## Fictional eligibility and seats"
+        },
+        {
+          "chunk_id": "chunk_80b848348b7d403586b4b83b",
+          "score": -1.5017200708389282,
+          "text": "# Synthetic Circular CIRC-2026-03: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-04-15 by the fictional East India District Education Office. Synthetic scenario reference school: Pannalal Institute of Secondary Education (OSM ID 147001916).\r\n\r\nCircular CIRC-2026-03 applies to WBBSE schools and mentions Pannalal Institute of Secondary Education. In this fictional scenario, Pannalal Institute of "
+        }
+      ],
+      "confidence": 0.0,
+      "answer": "I cannot answer this from the available sources",
+      "citations": [],
+      "citations_retrieved_check": true,
+      "answer_correct": null,
+      "citation_correct": null,
+      "abstained": true,
+      "trace_reason": "Fit-only calibration and supported abstention threshold not available",
+      "synthetic": true
+    },
+    {
+      "id": "syn_dev_07",
+      "question": "Which rule is listed for Midnapore ITI?",
+      "synthetic_question": true,
+      "entities_found": [
+        {
+          "id": "entity_03e46650802ad924d21764c8",
+          "type": "School",
+          "canonical_name": "Midnapore ITI",
+          "mentions": [
+            {
+              "start": 282,
+              "end": 295,
+              "chunk_id": "chunk_2324d897e70bfecdc9763d2e"
+            },
+            {
+              "start": 378,
+              "end": 391,
+              "chunk_id": "chunk_2324d897e70bfecdc9763d2e"
+            },
+            {
+              "start": 421,
+              "end": 434,
+              "chunk_id": "chunk_2324d897e70bfecdc9763d2e"
+            },
+            {
+              "start": 499,
+              "end": 512,
+              "chunk_id": "chunk_2324d897e70bfecdc9763d2e"
+            }
+          ],
+          "attributes": {
+            "date": null,
+            "count": null,
+            "value": null,
+            "unit": null,
+            "location": {
+              "lat": 22.419042599999997,
+              "lon": 87.3009550393289
+            },
+            "osm_id": "208918257",
+            "board": null,
+            "locality": null,
+            "synthetic": false
+          }
+        }
+      ],
+      "top_passages": [
+        {
+          "chunk_id": "chunk_2324d897e70bfecdc9763d2e",
+          "score": 4.019110679626465,
+          "text": "# Synthetic Circular CIRC-2026-07: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-08-15 by the fictional East India District Education Office. Synthetic scenario reference school: Midnapore ITI (OSM ID 208918257).\r\n\r\nCircular CIRC-2026-07 applies to CBSE schools and mentions Midnapore ITI. In this fictional scenario, Midnapore ITI is affiliated with CBSE.\r\n\r\n## Fictional eligibility and seats\r\nM"
+        },
+        {
+          "chunk_id": "chunk_fe3a5da9cba24ae92f5e8416",
+          "score": 0.689357340335846,
+          "text": "Midnapore ITI. OSM ID: 208918257. Representative location: latitude 22.4190426, longitude 87.3009550. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_fed8acc684e27dec08d2fc03",
+          "score": -10.198862075805664,
+          "text": "ITI block. OSM ID: 1097858218. Representative location: latitude 25.6349010, longitude 85.1075340. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_eae0a0e8db3001fa2345d5de",
+          "score": -10.436708450317383,
+          "text": "l documents and policy\r\nRule 9 requires proof of age and prior examination marks. The fictional locality is Sector 9. Circular CIRC-2026-09 supersedes Circular 2025-09 in this invented scenario.\r\n"
+        },
+        {
+          "chunk_id": "chunk_499be8d2dc1194a598cdfb64",
+          "score": -10.701089859008789,
+          "text": "Khila ITI College. OSM ID: 846177768. Representative location: latitude 22.6745684, longitude 88.0042219. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        }
+      ],
+      "confidence": 0.0,
+      "answer": "I cannot answer this from the available sources",
+      "citations": [],
+      "citations_retrieved_check": true,
+      "answer_correct": null,
+      "citation_correct": null,
+      "abstained": true,
+      "trace_reason": "Fit-only calibration and supported abstention threshold not available",
+      "synthetic": true
+    },
+    {
+      "id": "syn_dev_08",
+      "question": "Which fictional locality is given for Dinhata College?",
+      "synthetic_question": true,
+      "entities_found": [
+        {
+          "id": "entity_6484f4b047629140e51af315",
+          "type": "School",
+          "canonical_name": "Dinhata College",
+          "mentions": [
+            {
+              "start": 282,
+              "end": 297,
+              "chunk_id": "chunk_19b41bbcb546e7c22796ebef"
+            },
+            {
+              "start": 380,
+              "end": 395,
+              "chunk_id": "chunk_19b41bbcb546e7c22796ebef"
+            },
+            {
+              "start": 425,
+              "end": 440,
+              "chunk_id": "chunk_19b41bbcb546e7c22796ebef"
+            },
+            {
+              "start": 505,
+              "end": 520,
+              "chunk_id": "chunk_19b41bbcb546e7c22796ebef"
+            }
+          ],
+          "attributes": {
+            "date": null,
+            "count": null,
+            "value": null,
+            "unit": null,
+            "location": {
+              "lat": 26.146203,
+              "lon": 89.46379853580889
+            },
+            "osm_id": "251790340",
+            "board": null,
+            "locality": null,
+            "synthetic": false
+          }
+        }
+      ],
+      "top_passages": [
+        {
+          "chunk_id": "chunk_19b41bbcb546e7c22796ebef",
+          "score": 6.694022178649902,
+          "text": "# Synthetic Circular CIRC-2026-08: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-09-15 by the fictional East India District Education Office. Synthetic scenario reference school: Dinhata College (OSM ID 251790340).\r\n\r\nCircular CIRC-2026-08 applies to ICSE schools and mentions Dinhata College. In this fictional scenario, Dinhata College is affiliated with ICSE.\r\n\r\n## Fictional eligibility and se"
+        },
+        {
+          "chunk_id": "chunk_b0b691d3c65480147acdd2df",
+          "score": 2.654963254928589,
+          "text": "Dinhata College. OSM ID: 251790340. Representative location: latitude 26.1462030, longitude 89.4637985. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_ba863367a9132d68db20d81c",
+          "score": -0.09317894279956818,
+          "text": "# Synthetic Circular CIRC-2026-04: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-05-15 by the fictional East India District Education Office. Synthetic scenario reference school: DAV Lalpania (OSM ID 149824587).\r\n\r\nCircular CIRC-2026-04 applies to CBSE schools and mentions DAV Lalpania. In this fictional scenario, DAV Lalpania is affiliated with CBSE.\r\n\r\n## Fictional eligibility and seats\r\nDAV "
+        },
+        {
+          "chunk_id": "chunk_49b1839b8bd684f26f1b1571",
+          "score": -0.48687997460365295,
+          "text": "# Synthetic Circular CIRC-2026-06: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-07-15 by the fictional East India District Education Office. Synthetic scenario reference school: MJK College (OSM ID 193901165).\r\n\r\nCircular CIRC-2026-06 applies to WBBSE schools and mentions MJK College. In this fictional scenario, MJK College is affiliated with WBBSE.\r\n\r\n## Fictional eligibility and seats\r\nMJK C"
+        },
+        {
+          "chunk_id": "chunk_82925b5d841196e02fcd3b46",
+          "score": -0.693684458732605,
+          "text": "quires proof of age and prior examination marks. The fictional locality is Sector 3. Circular CIRC-2026-03 supersedes Circular 2025-03 in this invented scenario.\r\n"
+        }
+      ],
+      "confidence": 0.0,
+      "answer": "I cannot answer this from the available sources",
+      "citations": [],
+      "citations_retrieved_check": true,
+      "answer_correct": null,
+      "citation_correct": null,
+      "abstained": true,
+      "trace_reason": "Fit-only calibration and supported abstention threshold not available",
+      "synthetic": true
+    },
+    {
+      "id": "syn_dev_09",
+      "question": "Which earlier circular is superseded in the notice for Baranagar Ramakrishna Mission Ashrama High School?",
+      "synthetic_question": true,
+      "entities_found": [
+        {
+          "id": "entity_6e3f815961a357829f7ab8d4",
+          "type": "School",
+          "canonical_name": "Baranagar Ramakrishna Mission Ashrama High School",
+          "mentions": [
+            {
+              "start": 282,
+              "end": 331,
+              "chunk_id": "chunk_17df9506dff06178c9534a71"
+            },
+            {
+              "start": 415,
+              "end": 464,
+              "chunk_id": "chunk_17df9506dff06178c9534a71"
+            },
+            {
+              "start": 494,
+              "end": 543,
+              "chunk_id": "chunk_17df9506dff06178c9534a71"
+            },
+            {
+              "start": 609,
+              "end": 658,
+              "chunk_id": "chunk_17df9506dff06178c9534a71"
+            }
+          ],
+          "attributes": {
+            "date": null,
+            "count": null,
+            "value": null,
+            "unit": null,
+            "location": {
+              "lat": 22.6344946,
+              "lon": 88.37263472212348
+            },
+            "osm_id": "284535702",
+            "board": null,
+            "locality": null,
+            "synthetic": false
+          }
+        },
+        {
+          "id": "entity_a763170a96534883bd7adc9f",
+          "type": "Circular",
+          "canonical_name": "circular is",
+          "mentions": [
+            {
+              "start": 84,
+              "end": 95,
+              "chunk_id": "chunk_5bf1c3356c26c10f0c079d86"
+            },
+            {
+              "start": 84,
+              "end": 95,
+              "chunk_id": "chunk_903006d6e817eb257650ca0b"
+            },
+            {
+              "start": 84,
+              "end": 95,
+              "chunk_id": "chunk_80b848348b7d403586b4b83b"
+            },
+            {
+              "start": 84,
+              "end": 95,
+              "chunk_id": "chunk_ba863367a9132d68db20d81c"
+            },
+            {
+              "start": 84,
+              "end": 95,
+              "chunk_id": "chunk_e22546a0cd42e92a13074a97"
+            },
+            {
+              "start": 84,
+              "end": 95,
+              "chunk_id": "chunk_49b1839b8bd684f26f1b1571"
+            },
+            {
+              "start": 84,
+              "end": 95,
+              "chunk_id": "chunk_2324d897e70bfecdc9763d2e"
+            },
+            {
+              "start": 84,
+              "end": 95,
+              "chunk_id": "chunk_19b41bbcb546e7c22796ebef"
+            },
+            {
+              "start": 84,
+              "end": 95,
+              "chunk_id": "chunk_17df9506dff06178c9534a71"
+            },
+            {
+              "start": 84,
+              "end": 95,
+              "chunk_id": "chunk_2bda3441ed3cf52fd02cf540"
+            },
+            {
+              "start": 84,
+              "end": 95,
+              "chunk_id": "chunk_ba485ef3192b0dba3b8ffa35"
+            },
+            {
+              "start": 84,
+              "end": 95,
+              "chunk_id": "chunk_44e365f986d3bec99b53a9c6"
+            }
+          ],
+          "attributes": {
+            "date": null,
+            "count": null,
+            "value": null,
+            "unit": null,
+            "location": null,
+            "osm_id": null,
+            "board": null,
+            "locality": null,
+            "synthetic": true
+          }
+        }
+      ],
+      "top_passages": [
+        {
+          "chunk_id": "chunk_17df9506dff06178c9534a71",
+          "score": 4.753773212432861,
+          "text": "# Synthetic Circular CIRC-2026-09: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-10-15 by the fictional East India District Education Office. Synthetic scenario reference school: Baranagar Ramakrishna Mission Ashrama High School (OSM ID 284535702).\r\n\r\nCircular CIRC-2026-09 applies to WBBSE schools and mentions Baranagar Ramakrishna Mission Ashrama High School. In this fictional scenario, Barana"
+        },
+        {
+          "chunk_id": "chunk_2cd8ac290a838f11fcbbb22e",
+          "score": 1.1002378463745117,
+          "text": "Baranagar Ramakrishna Mission Ashrama High School. OSM ID: 284535702. Representative location: latitude 22.6344946, longitude 88.3726347. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_9db48df7f8db4d9329d40db4",
+          "score": -0.9218793511390686,
+          "text": "Ramakrishna Mission High School. OSM ID: 1478604805. Representative location: latitude 20.2519177, longitude 85.8361906. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_9b114029d9e753b98e9f2732",
+          "score": -3.1122264862060547,
+          "text": "Ramakrishna Mission Vivekananda Vidyamandir, Malda. OSM ID: 1364508858. Representative location: latitude 24.9960952, longitude 88.1478044. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_5bf1c3356c26c10f0c079d86",
+          "score": -4.864082336425781,
+          "text": "# Synthetic Circular CIRC-2026-01: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-02-15 by the fictional East India District Education Office. Synthetic scenario reference school: Vivekananda High School (OSM ID 130277882).\r\n\r\nCircular CIRC-2026-01 applies to CBSE schools and mentions Vivekananda High School. In this fictional scenario, Vivekananda High School is affiliated with CBSE.\r\n\r\n## Fict"
+        }
+      ],
+      "confidence": 0.0,
+      "answer": "I cannot answer this from the available sources",
+      "citations": [],
+      "citations_retrieved_check": true,
+      "answer_correct": null,
+      "citation_correct": null,
+      "abstained": true,
+      "trace_reason": "Fit-only calibration and supported abstention threshold not available",
+      "synthetic": true
+    },
+    {
+      "id": "syn_dev_10",
+      "question": "What OSM ID identifies CARMEL PUBLIC SCHOOL in the supplied map?",
+      "synthetic_question": true,
+      "entities_found": [
+        {
+          "id": "entity_64ba99f9f92452f9b32dac26",
+          "type": "School",
+          "canonical_name": "CARMEL PUBLIC SCHOOL",
+          "mentions": [
+            {
+              "start": 282,
+              "end": 302,
+              "chunk_id": "chunk_2bda3441ed3cf52fd02cf540"
+            },
+            {
+              "start": 385,
+              "end": 405,
+              "chunk_id": "chunk_2bda3441ed3cf52fd02cf540"
+            },
+            {
+              "start": 435,
+              "end": 455,
+              "chunk_id": "chunk_2bda3441ed3cf52fd02cf540"
+            },
+            {
+              "start": 520,
+              "end": 540,
+              "chunk_id": "chunk_2bda3441ed3cf52fd02cf540"
+            }
+          ],
+          "attributes": {
+            "date": null,
+            "count": null,
+            "value": null,
+            "unit": null,
+            "location": {
+              "lat": 23.3679223,
+              "lon": 85.31093528973568
+            },
+            "osm_id": "287430896",
+            "board": null,
+            "locality": null,
+            "synthetic": false
+          }
+        }
+      ],
+      "top_passages": [
+        {
+          "chunk_id": "chunk_11c2d2eeb93b90da4ea7919b",
+          "score": 7.711584568023682,
+          "text": "CARMEL PUBLIC SCHOOL. OSM ID: 287430896. Representative location: latitude 23.3679223, longitude 85.3109353. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_28532e732519bdff7947a24e",
+          "score": 7.408439636230469,
+          "text": "Carmel School. OSM ID: 544904293. Representative location: latitude 23.8041281, longitude 86.4252132. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_e853e09d0a389944e3d1927d",
+          "score": 7.173934459686279,
+          "text": "Carmel English Medium School. OSM ID: 1426388196. Representative location: latitude 20.4709524, longitude 84.2422171. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_b86f3fc87027fc3f849ad86f",
+          "score": 6.775957107543945,
+          "text": "Carmel Convent School. OSM ID: 301927614. Representative location: latitude 22.2663011, longitude 84.8619027. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        },
+        {
+          "chunk_id": "chunk_f03a4d1134749fb4e45f305e",
+          "score": 6.65783166885376,
+          "text": "Mount Carmel English School. OSM ID: 1331384420. Representative location: latitude 25.7903401, longitude 87.3950652. Location derived from the supplied school building polygon; not an entrance. Board, seats and admissions cutoff are not supplied."
+        }
+      ],
+      "confidence": 0.0,
+      "answer": "I cannot answer this from the available sources",
+      "citations": [],
+      "citations_retrieved_check": true,
+      "answer_correct": null,
+      "citation_correct": null,
+      "abstained": true,
+      "trace_reason": "Fit-only calibration and supported abstention threshold not available",
+      "synthetic": true
+    }
+  ],
+  "summary": {
+    "questions": 10,
+    "answered": 0,
+    "coverage": 0.0,
+    "answer_accuracy": null,
+    "citation_accuracy": null,
+    "reason": "all outputs abstain because synthetic fit data did not support a >=90% accuracy threshold"
+  }
+}

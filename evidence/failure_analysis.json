@@ -1,0 +1,34 @@
+{
+  "all_cases_synthetic_or_local_demo": true,
+  "cases": [
+    {
+      "stage": "entity detection and graph expansion",
+      "symptom": "generic School token selected unrelated named-school entities",
+      "before_entity_matches": 5,
+      "before_neighbor_paths": 182,
+      "after_entity_matches": 1,
+      "after_neighbor_paths": 14,
+      "fix": "exclude generic canonical labels from substring matches; retain exact full names and OSM IDs",
+      "implemented": true,
+      "regression_tests": "20 passed, 2 skipped"
+    },
+    {
+      "stage": "LLM entity extraction",
+      "symptom": "small model returned spans unrelated to the source; strict validation rejected annotated chunks",
+      "observed_pre_fix_failed_chunks": 12,
+      "observed_post_fix_failed_chunks": 1,
+      "fix": "remove copied numeric example offsets; re-anchor only exact canonical-name strings and skip absent/ambiguous names",
+      "implemented": true,
+      "remaining": "synthetic LLM precision/recall still poor; prefer rules for PoC extraction"
+    },
+    {
+      "stage": "confidence and generation",
+      "symptom": "no fit threshold reached 90% accuracy, so system abstained on every dev prompt",
+      "test_ece": 0.013333364459627156,
+      "test_brier": 0.06240000083003547,
+      "chosen_threshold": null,
+      "fix": "do not lower threshold without evidence; obtain independent relevance labels and refit before enabling answers",
+      "implemented": "safe abstention"
+    }
+  ]
+}

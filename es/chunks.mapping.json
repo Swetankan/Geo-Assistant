@@ -1,0 +1,57 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0
+  },
+  "mappings": {
+    "dynamic": "strict",
+    "properties": {
+      "id": {
+        "type": "keyword"
+      },
+      "document_id": {
+        "type": "keyword"
+      },
+      "source": {
+        "type": "keyword"
+      },
+      "page": {
+        "type": "integer"
+      },
+      "start": {
+        "type": "integer"
+      },
+      "end": {
+        "type": "integer"
+      },
+      "text": {
+        "type": "text",
+        "analyzer": "english"
+      },
+      "synthetic": {
+        "type": "boolean"
+      },
+      "board": {
+        "type": "keyword"
+      },
+      "school_ids": {
+        "type": "keyword"
+      },
+      "locations": {
+        "type": "geo_point"
+      },
+      "embedding": {
+        "type": "dense_vector",
+        "dims": 384,
+        "element_type": "float",
+        "similarity": "cosine",
+        "index": true,
+        "index_options": {
+          "type": "hnsw",
+          "m": 16,
+          "ef_construction": 100
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1326 @@
+{
+  "synthetic_labels": true,
+  "signals_from_live_local_models": true,
+  "rows": [
+    {
+      "id": "syn_cal_01",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.669807899999796,
+        "eval_count": 135,
+        "tokens_per_second": 28.909112085746802,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_02",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.491963100001158,
+        "eval_count": 135,
+        "tokens_per_second": 30.053675196032934,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_03",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.491460200000802,
+        "eval_count": 135,
+        "tokens_per_second": 30.057040247173045,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_04",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.571963899999901,
+        "eval_count": 135,
+        "tokens_per_second": 29.52779220325929,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_05",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.592028500001106,
+        "eval_count": 135,
+        "tokens_per_second": 29.39877224193349,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_06",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.647489700000733,
+        "eval_count": 135,
+        "tokens_per_second": 29.047939579076143,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_07",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.632622099999935,
+        "eval_count": 135,
+        "tokens_per_second": 29.141163920968623,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_08",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 2,
+      "label": 1,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.567150499999116,
+        "eval_count": 135,
+        "tokens_per_second": 29.558912061257043,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_09",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.809675600001356,
+        "eval_count": 135,
+        "tokens_per_second": 28.06842108019966,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_10",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.513862699999663,
+        "eval_count": 135,
+        "tokens_per_second": 29.907865828530866,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_11",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.46521439999924,
+        "eval_count": 135,
+        "tokens_per_second": 30.233710614214395,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_12",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.54145360000075,
+        "eval_count": 135,
+        "tokens_per_second": 29.726165208420866,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_13",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.496973000001162,
+        "eval_count": 135,
+        "tokens_per_second": 30.020193583542778,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_14",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.4986642000003485,
+        "eval_count": 135,
+        "tokens_per_second": 30.008907977614676,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_15",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.480351899999732,
+        "eval_count": 135,
+        "tokens_per_second": 30.131561764156977,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_16",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.554331599998477,
+        "eval_count": 135,
+        "tokens_per_second": 29.642110381256636,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_17",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.728120600000693,
+        "eval_count": 135,
+        "tokens_per_second": 28.552571184411033,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_18",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.64361419999841,
+        "eval_count": 135,
+        "tokens_per_second": 29.072182611562827,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_19",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.9381472999994,
+        "eval_count": 135,
+        "tokens_per_second": 27.338188150040885,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_20",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.598499900001116,
+        "eval_count": 135,
+        "tokens_per_second": 29.357399790302757,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_21",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 5.040332700000363,
+        "eval_count": 135,
+        "tokens_per_second": 26.78394622640491,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_22",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 5.092034599998442,
+        "eval_count": 135,
+        "tokens_per_second": 26.511995814019272,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_23",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.80351519999931,
+        "eval_count": 135,
+        "tokens_per_second": 28.10441819774389,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_24",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 2,
+      "label": 1,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 5.768115100001523,
+        "eval_count": 135,
+        "tokens_per_second": 23.404526029649503,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_25",
+      "split": "fit",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.9528762999998435,
+        "eval_count": 135,
+        "tokens_per_second": 27.25688909291037,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_26",
+      "split": "test",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.567517100000259,
+        "eval_count": 135,
+        "tokens_per_second": 29.55653959127867,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_27",
+      "split": "test",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.443887100000211,
+        "eval_count": 135,
+        "tokens_per_second": 30.378809578666747,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_28",
+      "split": "test",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.58145069999955,
+        "eval_count": 135,
+        "tokens_per_second": 29.466649068168138,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_29",
+      "split": "test",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.511688399999912,
+        "eval_count": 135,
+        "tokens_per_second": 29.92227920704866,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_30",
+      "split": "test",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.505369399999836,
+        "eval_count": 135,
+        "tokens_per_second": 29.964246660885326,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_31",
+      "split": "test",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.445142999999007,
+        "eval_count": 135,
+        "tokens_per_second": 30.370226559647275,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_32",
+      "split": "test",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.669047399998817,
+        "eval_count": 135,
+        "tokens_per_second": 28.9138208363518,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_33",
+      "split": "test",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.457203599999048,
+        "eval_count": 135,
+        "tokens_per_second": 30.288048766726483,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_34",
+      "split": "test",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.601144700000077,
+        "eval_count": 135,
+        "tokens_per_second": 29.340524761152967,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_35",
+      "split": "test",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.605391499999314,
+        "eval_count": 135,
+        "tokens_per_second": 29.313468789791294,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_36",
+      "split": "test",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.52743670000018,
+        "eval_count": 135,
+        "tokens_per_second": 29.818197126863115,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_37",
+      "split": "test",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.416199700001016,
+        "eval_count": 135,
+        "tokens_per_second": 30.569269772825024,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_38",
+      "split": "test",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.56379299999935,
+        "eval_count": 135,
+        "tokens_per_second": 29.580658018455093,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_39",
+      "split": "test",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 0,
+      "label": 0,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.397754699999496,
+        "eval_count": 135,
+        "tokens_per_second": 30.697482967846177,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    },
+    {
+      "id": "syn_cal_40",
+      "split": "test",
+      "top_chunk": "chunk_ba863367a9132d68db20d81c",
+      "top_grade": 2,
+      "label": 1,
+      "reranker_logit": 5.470607757568359,
+      "margin": 0.029920578002929688,
+      "keyword_vector_top_agreement": 1.0,
+      "answer_mean_token_log_probability": -0.055579095530363165,
+      "features": [
+        0.9958089651699683,
+        0.029920578002929688,
+        1.0,
+        0.9459372013067888
+      ],
+      "llm_usage": {
+        "elapsed_seconds": 4.577861600000688,
+        "eval_count": 135,
+        "tokens_per_second": 29.48975128474389,
+        "throughput_scope": "end-to-end request, includes prompt processing",
+        "decoding": {
+          "temperature": 0,
+          "top_p": 0.9,
+          "top_k": 40,
+          "seed": 42,
+          "max_tokens": 1200
+        },
+        "log_probabilities_supported": true,
+        "mean_token_log_probability": -0.055579095530363165
+      },
+      "synthetic_label": true
+    }
+  ]
+}

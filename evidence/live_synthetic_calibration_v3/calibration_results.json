@@ -1,0 +1,79 @@
+{
+  "count": 15,
+  "reliability": [
+    {
+      "lower": 0.0,
+      "upper": 0.2,
+      "count": 15,
+      "confidence": 0.08000003112629382,
+      "accuracy": 0.06666666666666667
+    },
+    {
+      "lower": 0.2,
+      "upper": 0.4,
+      "count": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "lower": 0.4,
+      "upper": 0.6,
+      "count": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "lower": 0.6,
+      "upper": 0.8,
+      "count": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "lower": 0.8,
+      "upper": 1.0,
+      "count": 0,
+      "confidence": null,
+      "accuracy": null
+    }
+  ],
+  "ece": 0.013333364459627156,
+  "brier": 0.06240000083003547,
+  "log_loss": 0.2462047502691583,
+  "reranker_ece_before": 0.929142298503302,
+  "reranker_ece_after": 0.7943232019441465,
+  "threshold_sweep": [
+    {
+      "threshold": 0.5,
+      "answered": 0,
+      "coverage": 0.0,
+      "accuracy": null
+    },
+    {
+      "threshold": 0.6,
+      "answered": 0,
+      "coverage": 0.0,
+      "accuracy": null
+    },
+    {
+      "threshold": 0.7,
+      "answered": 0,
+      "coverage": 0.0,
+      "accuracy": null
+    },
+    {
+      "threshold": 0.8,
+      "answered": 0,
+      "coverage": 0.0,
+      "accuracy": null
+    },
+    {
+      "threshold": 0.9,
+      "answered": 0,
+      "coverage": 0.0,
+      "accuracy": null
+    }
+  ],
+  "chosen_threshold_result": null,
+  "synthetic_labels": true
+}

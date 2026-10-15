@@ -1,0 +1,8 @@
+{
+  "kind": "local_artifact_idempotency_not_Elasticsearch",
+  "identical": true,
+  "hashes": {
+    "chunks.jsonl": "b5568852d10adc59194ac93a5a49abda1e8675a3eda1460304c99c1c02957d1e",
+    "entities.jsonl": "0429c3c78a032354f65ad0efea47911cc438c2f9841b1b7892e6b67f271054c5"
+  }
+}

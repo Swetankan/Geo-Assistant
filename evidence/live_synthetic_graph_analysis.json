@@ -1,0 +1,134 @@
+{
+  "synthetic_policy_data": true,
+  "nodes": 1156,
+  "edges": 142,
+  "components": 1086,
+  "top_degree": [
+    {
+      "name": "CBSE",
+      "degree": 21,
+      "id": "entity_166294f9ff75d195654a4ee6",
+      "type": "Board"
+    },
+    {
+      "name": "WBBSE",
+      "degree": 21,
+      "id": "entity_cb64326734005217f26ddba6",
+      "type": "Board"
+    },
+    {
+      "name": "ICSE",
+      "degree": 20,
+      "id": "entity_1bda988c9f43953688186882",
+      "type": "Board"
+    },
+    {
+      "name": "School",
+      "degree": 14,
+      "id": "entity_a3fd111bd8ac9e1740cb5101",
+      "type": "School"
+    },
+    {
+      "name": "School",
+      "degree": 14,
+      "id": "entity_b2034514d9891a23c297cfff",
+      "type": "School"
+    }
+  ],
+  "top_pagerank": [
+    {
+      "name": "WBBSE",
+      "id": "entity_cb64326734005217f26ddba6",
+      "score": 0.017232010292607666
+    },
+    {
+      "name": "ICSE",
+      "id": "entity_1bda988c9f43953688186882",
+      "score": 0.013530775207747136
+    },
+    {
+      "name": "CBSE",
+      "id": "entity_166294f9ff75d195654a4ee6",
+      "score": 0.01325916398237167
+    },
+    {
+      "name": "Circular CIRC-2026-12",
+      "id": "entity_236117fb2b2c11c3d9db27d7",
+      "score": 0.011843398993027821
+    },
+    {
+      "name": "School",
+      "id": "entity_a3fd111bd8ac9e1740cb5101",
+      "score": 0.008376461254570866
+    }
+  ],
+  "graph_expansion_benefit": {
+    "query": "What directive governs Railway Mixed School?",
+    "school": "Railway Mixed School",
+    "keyword_top5": [
+      {
+        "id": "chunk_303819899e3fbdd7336d43d8",
+        "text": "Eastern Railway High School. OSM ID: 345753958. Representative location: latitude 23.5778860, longitude 87.1889001. Location derived from the supplied school building polygon; not "
+      },
+      {
+        "id": "chunk_5d56ea49111554c48e3dee98",
+        "text": "Government School. OSM ID: 1291991919. Representative location: latitude 22.7627511, longitude 86.2162522. Location derived from the supplied school building polygon; not an entran"
+      },
+      {
+        "id": "chunk_80a7116f5139eb412579c5aa",
+        "text": "Railway Mixed School. OSM ID: 133348852. Representative location: latitude 22.3412030, longitude 87.2992860. Location derived from the supplied school building polygon; not an entr"
+      },
+      {
+        "id": "chunk_903006d6e817eb257650ca0b",
+        "text": "# Synthetic Circular CIRC-2026-02: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2"
+      },
+      {
+        "id": "chunk_b8b9757b821798ab810663c3",
+        "text": "Government School. OSM ID: 1387054017. Representative location: latitude 25.5628210, longitude 87.5557318. Location derived from the supplied school building polygon; not an entran"
+      }
+    ],
+    "graph_hybrid_top5": [
+      {
+        "id": "chunk_17df9506dff06178c9534a71",
+        "text": "# Synthetic Circular CIRC-2026-09: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2"
+      },
+      {
+        "id": "chunk_19b41bbcb546e7c22796ebef",
+        "text": "# Synthetic Circular CIRC-2026-08: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2"
+      },
+      {
+        "id": "chunk_44e365f986d3bec99b53a9c6",
+        "text": "# Synthetic Circular CIRC-2026-12: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2"
+      },
+      {
+        "id": "chunk_80a7116f5139eb412579c5aa",
+        "text": "Railway Mixed School. OSM ID: 133348852. Representative location: latitude 22.3412030, longitude 87.2992860. Location derived from the supplied school building polygon; not an entr"
+      },
+      {
+        "id": "chunk_903006d6e817eb257650ca0b",
+        "text": "# Synthetic Circular CIRC-2026-02: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2"
+      }
+    ],
+    "synthetic_chunks_added": [
+      {
+        "id": "chunk_19b41bbcb546e7c22796ebef",
+        "text": "# Synthetic Circular CIRC-2026-08: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-09-15 by the fictional East India District Education Office. Synthetic scena"
+      }
+    ],
+    "path_count": 14
+  },
+  "graph_expansion_noise": {
+    "query": "What does CBSE stand for?",
+    "seed_entities": [
+      "CBSE"
+    ],
+    "expanded_paths": 26,
+    "synthetic_chunks_added": [
+      {
+        "id": "chunk_19b41bbcb546e7c22796ebef",
+        "text": "# Synthetic Circular CIRC-2026-08: Fictional admission scenario\r\n\r\nDISCLOSURE: This circular is fictional. Its policy facts do not describe the real school named below.\r\n\r\nIssued 2026-09-15 by the fictional East India District Education Off"
+      }
+    ],
+    "mitigation": "two-hop traversal with fan-out 20, top-5 evidence cap, plus reranker and fitted confidence/abstention"
+  }
+}

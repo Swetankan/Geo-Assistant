@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "username": "rag_app",
+    "roles": [
+      "rag_app"
+    ]
+  },
+  "schools_wfs": 1062,
+  "roads_wfs": 12,
+  "road_entities": 12,
+  "near_edges_within_300m": 26,
+  "crs": "EPSG:32646",
+  "synthetic_geometry": true,
+  "warning": "Distances apply to synthetic demonstration roads only; not real road proximity.",
+  "counts": {
+    "chunks": 1078,
+    "entities": 1156,
+    "relations": 142
+  }
+}

@@ -1,0 +1,29 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1400' height='800' viewBox='0 0 1400 800'>
+<rect width='1400' height='800' fill='#ffffff'/>
+<style>text{font-family:Arial,sans-serif;fill:#17202a}.title{font-size:28px;font-weight:bold}.h{font-size:18px;font-weight:bold}.t{font-size:15px}.box{fill:#eef5ff;stroke:#315b8a;stroke-width:2;rx:12}.warn{fill:#fff5dc;stroke:#b17d00;stroke-width:2;rx:12}.store{fill:#edf8ef;stroke:#38804b;stroke-width:2;rx:12}.line{stroke:#455a64;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+<defs><marker id='arrow' markerWidth='10' markerHeight='10' refX='9' refY='3' orient='auto'><path d='M0,0 L0,6 L9,3 z' fill='#455a64'/></marker></defs>
+<text x='40' y='45' class='title'>East India Geo-Assistant - local proof of concept</text>
+<text x='40' y='85' class='h'>Ingestion</text>
+<rect x='40' y='110' width='220' height='90' class='box'/><text x='55' y='145' class='h'>Documents</text><text x='55' y='172' class='t'>12 synthetic circulars</text>
+<rect x='40' y='245' width='220' height='90' class='warn'/><text x='55' y='280' class='h'>School polygons + demo</text><text x='55' y='307' class='t'>1,062 school polygons</text>
+<rect x='330' y='110' width='220' height='90' class='box'/><text x='345' y='145' class='h'>Chunking / spans</text><text x='345' y='172' class='t'>PDF, TXT, Markdown</text>
+<rect x='330' y='245' width='220' height='90' class='box'/><text x='345' y='280' class='h'>Extract / resolve</text><text x='345' y='307' class='t'>Rules + local LLM</text>
+<rect x='620' y='110' width='230' height='90' class='box'/><text x='635' y='145' class='h'>Local embeddings</text><text x='635' y='172' class='t'>E5 / MiniLM (384-d)</text>
+<rect x='620' y='245' width='230' height='90' class='box'/><text x='635' y='280' class='h'>Entity graph</text><text x='635' y='307' class='t'>NetworkX, bounded hops</text>
+<rect x='920' y='95' width='250' height='75' class='store'/><text x='940' y='125' class='h'>east_india_chunks</text><text x='940' y='150' class='t'>dense_vector + text</text>
+<rect x='920' y='190' width='250' height='75' class='store'/><text x='940' y='220' class='h'>east_india_entities</text><text x='940' y='245' class='t'>typed attributes / mentions</text>
+<rect x='920' y='285' width='250' height='75' class='store'/><text x='940' y='315' class='h'>east_india_relations</text><text x='940' y='340' class='t'>weighted edges / evidence</text>
+<path d='M260 155 H330 M260 290 H330 M550 155 H620 M550 290 H620 M850 155 H920 M850 290 H920 M850 290 V227 H920' class='line'/>
+<text x='40' y='415' class='h'>Retrieval and answer path</text>
+<rect x='40' y='450' width='180' height='85' class='box'/><text x='70' y='485' class='h'>Question</text><text x='60' y='512' class='t'>entities + filters</text>
+<rect x='280' y='450' width='220' height='85' class='box'/><text x='300' y='485' class='h'>BM25 + kNN</text><text x='300' y='512' class='t'>keyword / vector</text>
+<rect x='560' y='450' width='220' height='85' class='box'/><text x='580' y='485' class='h'>Graph expansion</text><text x='580' y='512' class='t'>up to 2 hops</text>
+<rect x='840' y='450' width='220' height='85' class='box'/><text x='860' y='485' class='h'>RRF + reranker</text><text x='860' y='512' class='t'>cross-encoder</text>
+<rect x='1120' y='450' width='230' height='85' class='warn'/><text x='1140' y='485' class='h'>Confidence / answer</text><text x='1140' y='512' class='t'>abstain if unsupported</text>
+<path d='M220 492 H280 M500 492 H560 M780 492 H840 M1060 492 H1120' class='line'/>
+<text x='40' y='610' class='h'>Local endpoints and identity</text>
+<rect x='40' y='635' width='340' height='90' class='store'/><text x='60' y='670' class='h'>Elasticsearch 8.19 - :9200</text><text x='60' y='700' class='t'>rag_app live; three scoped indices</text>
+<rect x='430' y='635' width='340' height='90' class='store'/><text x='450' y='670' class='h'>GeoServer 2.27 - :8080</text><text x='450' y='700' class='t'>rag_geo authenticated; 3 WFS layers</text>
+<rect x='820' y='635' width='340' height='90' class='store'/><text x='840' y='670' class='h'>llama.cpp - :8081</text><text x='840' y='700' class='t'>Qwen2.5 1.5B Q4_K_M; smoke-tested</text>
+<text x='1190' y='680' class='t'>Synthetic roads and policies</text><text x='1190' y='705' class='t'>are not real observations.</text>
+</svg>

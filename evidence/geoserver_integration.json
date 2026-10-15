@@ -1,0 +1,37 @@
+{
+  "version_response": {
+    "about": {
+      "resource": [
+        {
+          "@name": "GeoServer",
+          "Build-Timestamp": "17-Jul-2025 18:22",
+          "Version": "2.27.2",
+          "Git-Revision": "a9723130948f7fd243be9c912186f11dad19254d"
+        },
+        {
+          "@name": "GeoTools",
+          "Build-Timestamp": "17-Jul-2025 14:30",
+          "Version": 33.2,
+          "Git-Revision": "626f0c5597c2013ce37dc90f7f510589c6f59f75"
+        },
+        {
+          "@name": "GeoWebCache",
+          "Version": "1.27.2",
+          "Git-Revision": "1.27.x/94a3864d701fc23b3b6d08f3e825e52456611d86"
+        }
+      ]
+    }
+  },
+  "access": {
+    "anonymous_status": 401,
+    "authenticated_status": 200,
+    "passed": true
+  },
+  "feature_counts": {
+    "schools": 1062,
+    "roads": 0,
+    "landuse": 0
+  },
+  "roads_landuse_status": "empty schema only; no real or synthetic geometries supplied",
+  "schools_source": "supplied schools.gpkg converted losslessly to shapefile geometry; names UTF-8"
+}

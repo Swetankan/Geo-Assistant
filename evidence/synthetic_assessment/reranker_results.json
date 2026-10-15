@@ -1,0 +1,83 @@
+{
+  "synthetic": true,
+  "results": [
+    {
+      "id": "syn_q_21",
+      "split": "holdout",
+      "n": 10,
+      "batch_size": 16,
+      "before_ndcg5": 0.41311732856427996,
+      "after_ndcg5": 0.41311732856427996,
+      "before_mrr": 0.3333333333333333,
+      "after_mrr": 0.3333333333333333,
+      "extra_seconds": 0.1370227999996132,
+      "synthetic": true,
+      "repeat_order_equal": null
+    },
+    {
+      "id": "syn_q_21",
+      "split": "holdout",
+      "n": 20,
+      "batch_size": 16,
+      "before_ndcg5": 0.41311732856427996,
+      "after_ndcg5": 0.41311732856427996,
+      "before_mrr": 0.3333333333333333,
+      "after_mrr": 0.3333333333333333,
+      "extra_seconds": 0.19815310000012687,
+      "synthetic": true,
+      "repeat_order_equal": null
+    },
+    {
+      "id": "syn_q_21",
+      "split": "holdout",
+      "n": 50,
+      "batch_size": 16,
+      "before_ndcg5": 0.41311732856427996,
+      "after_ndcg5": 0.41311732856427996,
+      "before_mrr": 0.3333333333333333,
+      "after_mrr": 0.3333333333333333,
+      "extra_seconds": 0.19704400000046007,
+      "synthetic": true,
+      "repeat_order_equal": null
+    },
+    {
+      "id": "syn_q_22",
+      "split": "holdout",
+      "n": 10,
+      "batch_size": 16,
+      "before_ndcg5": 0.11861329943102608,
+      "after_ndcg5": 0.11861329943102608,
+      "before_mrr": 0.25,
+      "after_mrr": 0.25,
+      "extra_seconds": 0.12935190000098373,
+      "synthetic": true,
+      "repeat_order_equal": null
+    },
+    {
+      "id": "syn_q_22",
+      "split": "holdout",
+      "n": 20,
+      "batch_size": 16,
+      "before_ndcg5": 0.11861329943102608,
+      "after_ndcg5": 0.11861329943102608,
+      "before_mrr": 0.25,
+      "after_mrr": 0.25,
+      "extra_seconds": 0.19822240000030433,
+      "synthetic": true,
+      "repeat_order_equal": null
+    },
+    {
+      "id": "syn_q_22",
+      "split": "holdout",
+      "n": 50,
+      "batch_size": 16,
+      "before_ndcg5": 0.11861329943102608,
+      "after_ndcg5": 0.11861329943102608,
+      "before_mrr": 0.25,
+      "after_mrr": 0.25,
+      "extra_seconds": 0.20123769999918295,
+      "synthetic": true,
+      "repeat_order_equal": null
+    }
+  ]
+}

@@ -1,0 +1,4194 @@
+{
+  "synthetic_questions_and_corpus": true,
+  "primary_embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "generation_repetitions": 5,
+  "temperatures": [
+    0,
+    0.3,
+    0.7
+  ],
+  "top_p": 0.9,
+  "top_k": 40,
+  "consistency_metric": "exact normalized answer plus citation-ID majority fraction; fact proxy uses required phrase substrings",
+  "results": [
+    {
+      "id": "syn_dev_01",
+      "temperature": 0,
+      "runs": [
+        {
+          "answer": "70",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86",
+            "chunk_955412381279136d24a06e8f",
+            "chunk_17df9506dff06178c9534a71",
+            "chunk_f685e9410252c0144dc8f874",
+            "chunk_03e7454a46ac52c111d12ac4"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 6.45860950000133,
+            "eval_count": 144,
+            "tokens_per_second": 22.29582079547778,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.027534542560409905
+          },
+          "seed": 42
+        },
+        {
+          "answer": "70",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86",
+            "chunk_955412381279136d24a06e8f",
+            "chunk_17df9506dff06178c9534a71",
+            "chunk_f685e9410252c0144dc8f874",
+            "chunk_03e7454a46ac52c111d12ac4"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.183780600000318,
+            "eval_count": 144,
+            "tokens_per_second": 27.77895345339098,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.02851503835479817
+          },
+          "seed": 43
+        },
+        {
+          "answer": "70",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86",
+            "chunk_955412381279136d24a06e8f",
+            "chunk_17df9506dff06178c9534a71",
+            "chunk_f685e9410252c0144dc8f874",
+            "chunk_03e7454a46ac52c111d12ac4"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.150500899999315,
+            "eval_count": 144,
+            "tokens_per_second": 27.958445750396656,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.02851503835479817
+          },
+          "seed": 44
+        },
+        {
+          "answer": "70",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86",
+            "chunk_955412381279136d24a06e8f",
+            "chunk_17df9506dff06178c9534a71",
+            "chunk_f685e9410252c0144dc8f874",
+            "chunk_03e7454a46ac52c111d12ac4"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.234983000000284,
+            "eval_count": 144,
+            "tokens_per_second": 27.507252650102625,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.02851503835479817
+          },
+          "seed": 45
+        },
+        {
+          "answer": "70",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86",
+            "chunk_955412381279136d24a06e8f",
+            "chunk_17df9506dff06178c9534a71",
+            "chunk_f685e9410252c0144dc8f874",
+            "chunk_03e7454a46ac52c111d12ac4"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 4.927382999998372,
+            "eval_count": 144,
+            "tokens_per_second": 29.224438205848333,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.02851503835479817
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 1.0,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_01",
+      "temperature": 0.3,
+      "runs": [
+        {
+          "answer": "70",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86",
+            "chunk_955412381279136d24a06e8f",
+            "chunk_17df9506dff06178c9534a71",
+            "chunk_f685e9410252c0144dc8f874",
+            "chunk_03e7454a46ac52c111d12ac4"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.297460499999943,
+            "eval_count": 144,
+            "tokens_per_second": 27.18283600226968,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.02851503835479817
+          },
+          "seed": 42
+        },
+        {
+          "answer": "70",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86",
+            "chunk_955412381279136d24a06e8f",
+            "chunk_17df9506dff06178c9534a71",
+            "chunk_f685e9410252c0144dc8f874",
+            "chunk_03e7454a46ac52c111d12ac4"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.053580699999657,
+            "eval_count": 144,
+            "tokens_per_second": 28.49464736953934,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.02851503835479817
+          },
+          "seed": 43
+        },
+        {
+          "answer": "70",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86",
+            "chunk_955412381279136d24a06e8f",
+            "chunk_17df9506dff06178c9534a71",
+            "chunk_f685e9410252c0144dc8f874",
+            "chunk_03e7454a46ac52c111d12ac4"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.181232399998407,
+            "eval_count": 144,
+            "tokens_per_second": 27.792615517505887,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.02851503835479817
+          },
+          "seed": 44
+        },
+        {
+          "answer": "70",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86",
+            "chunk_955412381279136d24a06e8f",
+            "chunk_17df9506dff06178c9534a71",
+            "chunk_f685e9410252c0144dc8f874",
+            "chunk_03e7454a46ac52c111d12ac4"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 4.967824800000017,
+            "eval_count": 144,
+            "tokens_per_second": 28.98652947664328,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.02851503835479817
+          },
+          "seed": 45
+        },
+        {
+          "answer": "70",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86",
+            "chunk_955412381279136d24a06e8f",
+            "chunk_17df9506dff06178c9534a71",
+            "chunk_f685e9410252c0144dc8f874",
+            "chunk_03e7454a46ac52c111d12ac4"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.217875399999684,
+            "eval_count": 144,
+            "tokens_per_second": 27.597439371589576,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.02851503835479817
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 1.0,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_01",
+      "temperature": 0.7,
+      "runs": [
+        {
+          "answer": "70",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86",
+            "chunk_955412381279136d24a06e8f",
+            "chunk_17df9506dff06178c9534a71",
+            "chunk_f685e9410252c0144dc8f874",
+            "chunk_03e7454a46ac52c111d12ac4"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.117383099999643,
+            "eval_count": 144,
+            "tokens_per_second": 28.13938241207895,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.02851503835479817
+          },
+          "seed": 42
+        },
+        {
+          "answer": "70",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86",
+            "chunk_955412381279136d24a06e8f",
+            "chunk_17df9506dff06178c9534a71",
+            "chunk_f685e9410252c0144dc8f874",
+            "chunk_03e7454a46ac52c111d12ac4"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.0502723999998125,
+            "eval_count": 144,
+            "tokens_per_second": 28.513313460082934,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.02851503835479817
+          },
+          "seed": 43
+        },
+        {
+          "answer": "70",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86",
+            "chunk_955412381279136d24a06e8f",
+            "chunk_f685e9410252c0144dc8f874",
+            "chunk_03e7454a46ac52c111d12ac4"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 4.39093370000046,
+            "eval_count": 119,
+            "tokens_per_second": 27.101297384651364,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.041369577459961476
+          },
+          "seed": 44
+        },
+        {
+          "answer": "70",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86",
+            "chunk_955412381279136d24a06e8f",
+            "chunk_17df9506dff06178c9534a71",
+            "chunk_f685e9410252c0144dc8f874",
+            "chunk_03e7454a46ac52c111d12ac4"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.339666599998964,
+            "eval_count": 144,
+            "tokens_per_second": 26.967975865764345,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.02851503835479817
+          },
+          "seed": 45
+        },
+        {
+          "answer": "70",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86",
+            "chunk_955412381279136d24a06e8f",
+            "chunk_17df9506dff06178c9534a71",
+            "chunk_f685e9410252c0144dc8f874",
+            "chunk_03e7454a46ac52c111d12ac4"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.209432400000878,
+            "eval_count": 144,
+            "tokens_per_second": 27.642166927816497,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.02851503835479817
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 0.8,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_02",
+      "temperature": 0,
+      "runs": [
+        {
+          "answer": "Eastern Railway High School",
+          "chunk_ids": [
+            "chunk_80a7116f5139eb412579c5aa"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 2.924499900000228,
+            "eval_count": 40,
+            "tokens_per_second": 13.677552185929937,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.07801970315586573
+          },
+          "seed": 42
+        },
+        {
+          "answer": "Eastern Railway High School",
+          "chunk_ids": [
+            "chunk_80a7116f5139eb412579c5aa"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.410995099999127,
+            "eval_count": 40,
+            "tokens_per_second": 28.34878732039874,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.08522572156983443
+          },
+          "seed": 43
+        },
+        {
+          "answer": "Eastern Railway High School",
+          "chunk_ids": [
+            "chunk_80a7116f5139eb412579c5aa"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.3579747999992833,
+            "eval_count": 40,
+            "tokens_per_second": 29.455627600763364,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.08522572156983443
+          },
+          "seed": 44
+        },
+        {
+          "answer": "Eastern Railway High School",
+          "chunk_ids": [
+            "chunk_80a7116f5139eb412579c5aa"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.3681011999997281,
+            "eval_count": 40,
+            "tokens_per_second": 29.237603183162143,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.08522572156983443
+          },
+          "seed": 45
+        },
+        {
+          "answer": "Eastern Railway High School",
+          "chunk_ids": [
+            "chunk_80a7116f5139eb412579c5aa"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.3861519000001863,
+            "eval_count": 40,
+            "tokens_per_second": 28.856866264075837,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.08522572156983443
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 1.0,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_02",
+      "temperature": 0.3,
+      "runs": [
+        {
+          "answer": "Eastern Railway High School",
+          "chunk_ids": [
+            "chunk_80a7116f5139eb412579c5aa"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.3386311000012938,
+            "eval_count": 40,
+            "tokens_per_second": 29.881271994921782,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.08522572156983443
+          },
+          "seed": 42
+        },
+        {
+          "answer": "Eastern Railway High School",
+          "chunk_ids": [
+            "chunk_80a7116f5139eb412579c5aa",
+            "chunk_303819899e3fbdd7336d43d8",
+            "chunk_e0b8af5da4bb96ae0677f837",
+            "chunk_742a4c6d805f214761fae68e"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 3.836862399999518,
+            "eval_count": 116,
+            "tokens_per_second": 30.233036243367646,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.04167461362060696
+          },
+          "seed": 43
+        },
+        {
+          "answer": "Eastern Railway High School",
+          "chunk_ids": [
+            "chunk_80a7116f5139eb412579c5aa"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.4214172000010876,
+            "eval_count": 40,
+            "tokens_per_second": 28.14092864499557,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.08522572156983443
+          },
+          "seed": 44
+        },
+        {
+          "answer": "Eastern Railway High School",
+          "chunk_ids": [
+            "chunk_80a7116f5139eb412579c5aa"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.7007662000014534,
+            "eval_count": 40,
+            "tokens_per_second": 23.518811697907577,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.08522572156983443
+          },
+          "seed": 45
+        },
+        {
+          "answer": "Eastern Railway High School",
+          "chunk_ids": [
+            "chunk_80a7116f5139eb412579c5aa"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.7017481999992015,
+            "eval_count": 40,
+            "tokens_per_second": 23.505240081945594,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.08522572156983443
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 0.8,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_02",
+      "temperature": 0.7,
+      "runs": [
+        {
+          "answer": "Eastern Railway High School",
+          "chunk_ids": [
+            "chunk_80a7116f5139eb412579c5aa"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.9576326999995217,
+            "eval_count": 40,
+            "tokens_per_second": 20.432842177191755,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.08522572156983443
+          },
+          "seed": 42
+        },
+        {
+          "answer": "Eastern Railway High School",
+          "chunk_ids": [
+            "chunk_80a7116f5139eb412579c5aa",
+            "chunk_303819899e3fbdd7336d43d8"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 2.507399699999951,
+            "eval_count": 66,
+            "tokens_per_second": 26.322089772923437,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.08348359644076302
+          },
+          "seed": 43
+        },
+        {
+          "answer": "Eastern Railway High School",
+          "chunk_ids": [
+            "chunk_80a7116f5139eb412579c5aa"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.545421200000419,
+            "eval_count": 40,
+            "tokens_per_second": 25.882911403046077,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.08522572156983443
+          },
+          "seed": 44
+        },
+        {
+          "answer": "Eastern Railway High School",
+          "chunk_ids": [
+            "chunk_80a7116f5139eb412579c5aa",
+            "chunk_303819899e3fbdd7336d43d8",
+            "chunk_742a4c6d805f214761fae68e"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 3.104295799999818,
+            "eval_count": 93,
+            "tokens_per_second": 29.958485270638658,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.07077493501985925
+          },
+          "seed": 45
+        },
+        {
+          "answer": "Eastern Railway High School",
+          "chunk_ids": [
+            "chunk_80a7116f5139eb412579c5aa",
+            "chunk_303819899e3fbdd7336d43d8",
+            "chunk_e0b8af5da4bb96ae0677f837",
+            "chunk_742a4c6d805f214761fae68e"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 3.9622557000002416,
+            "eval_count": 116,
+            "tokens_per_second": 29.276252918253842,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.04167461362060696
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 0.4,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_03",
+      "temperature": 0,
+      "runs": [
+        {
+          "answer": "2026-06-30",
+          "chunk_ids": [
+            "chunk_a80da2debc6e7b757f5b53ac"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.9187684999997145,
+            "eval_count": 43,
+            "tokens_per_second": 22.41020738041426,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.12480974945458456
+          },
+          "seed": 42
+        },
+        {
+          "answer": "2026-06-30",
+          "chunk_ids": [
+            "chunk_a80da2debc6e7b757f5b53ac"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.6153819999999541,
+            "eval_count": 43,
+            "tokens_per_second": 26.61909071662382,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.12480974945458456
+          },
+          "seed": 43
+        },
+        {
+          "answer": "2026-06-30",
+          "chunk_ids": [
+            "chunk_a80da2debc6e7b757f5b53ac"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.5922026000007463,
+            "eval_count": 43,
+            "tokens_per_second": 27.006613354343123,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.12480974945458456
+          },
+          "seed": 44
+        },
+        {
+          "answer": "2026-06-30",
+          "chunk_ids": [
+            "chunk_a80da2debc6e7b757f5b53ac"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.574829500001215,
+            "eval_count": 43,
+            "tokens_per_second": 27.304543126711067,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.12480974945458456
+          },
+          "seed": 45
+        },
+        {
+          "answer": "2026-06-30",
+          "chunk_ids": [
+            "chunk_a80da2debc6e7b757f5b53ac"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.5434672999999748,
+            "eval_count": 43,
+            "tokens_per_second": 27.859352770221115,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.12480974945458456
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 1.0,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_03",
+      "temperature": 0.3,
+      "runs": [
+        {
+          "answer": "2026-06-30",
+          "chunk_ids": [
+            "chunk_e22546a0cd42e92a13074a97"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.7025442000012845,
+            "eval_count": 46,
+            "tokens_per_second": 27.018388127583,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.11201560145645974
+          },
+          "seed": 42
+        },
+        {
+          "answer": "2026-06-30",
+          "chunk_ids": [
+            "chunk_e22546a0cd42e92a13074a97"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.7497585000000981,
+            "eval_count": 46,
+            "tokens_per_second": 26.289342214938472,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.11201560145645974
+          },
+          "seed": 43
+        },
+        {
+          "answer": "2026-06-30",
+          "chunk_ids": [
+            "chunk_a80da2debc6e7b757f5b53ac"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.678854499999943,
+            "eval_count": 43,
+            "tokens_per_second": 25.61270199412841,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.12480974945458456
+          },
+          "seed": 44
+        },
+        {
+          "answer": "2026-06-30",
+          "chunk_ids": [
+            "chunk_a80da2debc6e7b757f5b53ac"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.5639611999995395,
+            "eval_count": 43,
+            "tokens_per_second": 27.4942882214806,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.12480974945458456
+          },
+          "seed": 45
+        },
+        {
+          "answer": "2026-06-30",
+          "chunk_ids": [
+            "chunk_e22546a0cd42e92a13074a97"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.6828150999990612,
+            "eval_count": 46,
+            "tokens_per_second": 27.33514810986998,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.11201560145645974
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 0.6,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_03",
+      "temperature": 0.7,
+      "runs": [
+        {
+          "answer": "2026-06-30",
+          "chunk_ids": [
+            "chunk_49b1839b8bd684f26f1b1571"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.7533330999995087,
+            "eval_count": 47,
+            "tokens_per_second": 26.806087217547635,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.14128535036017173
+          },
+          "seed": 42
+        },
+        {
+          "answer": "2026-06-30",
+          "chunk_ids": [
+            "chunk_e22546a0cd42e92a13074a97"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.866564300000391,
+            "eval_count": 46,
+            "tokens_per_second": 24.644208613649347,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.11201560145645974
+          },
+          "seed": 43
+        },
+        {
+          "answer": "2026-06-30",
+          "chunk_ids": [
+            "chunk_a80da2debc6e7b757f5b53ac"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.7405202999998437,
+            "eval_count": 43,
+            "tokens_per_second": 24.70525623861087,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.12480974945458456
+          },
+          "seed": 44
+        },
+        {
+          "answer": "2026-07-30",
+          "chunk_ids": [
+            "chunk_49b1839b8bd684f26f1b1571"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.7290162999997847,
+            "eval_count": 47,
+            "tokens_per_second": 27.18308670658909,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.14535623403010242
+          },
+          "seed": 45
+        },
+        {
+          "answer": "Applications hypothetically close on 2026-06-30.",
+          "chunk_ids": "chunk_a80da2debc6e7b757f5b53ac",
+          "citations_valid": false,
+          "usage": {
+            "elapsed_seconds": 1.75688319999972,
+            "eval_count": 49,
+            "tokens_per_second": 27.890300277222643,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.1310813018995128
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 0.2,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_04",
+      "temperature": 0,
+      "runs": [
+        {
+          "answer": "14 years",
+          "chunk_ids": [
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_5594399320980e1f50e0f1c6",
+            "chunk_c37a3748971446032c1b412d",
+            "chunk_339611e42e90706c7c8704ce",
+            "chunk_ece2e3f90bc43795f8620aec"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.02131609999924,
+            "eval_count": 144,
+            "tokens_per_second": 28.67774048322148,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03749643942204006
+          },
+          "seed": 42
+        },
+        {
+          "answer": "14 years",
+          "chunk_ids": [
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_5594399320980e1f50e0f1c6",
+            "chunk_c37a3748971446032c1b412d",
+            "chunk_339611e42e90706c7c8704ce",
+            "chunk_ece2e3f90bc43795f8620aec"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 4.7559607999992295,
+            "eval_count": 144,
+            "tokens_per_second": 30.277793711004374,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03749643942204006
+          },
+          "seed": 43
+        },
+        {
+          "answer": "14 years",
+          "chunk_ids": [
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_5594399320980e1f50e0f1c6",
+            "chunk_c37a3748971446032c1b412d",
+            "chunk_339611e42e90706c7c8704ce",
+            "chunk_ece2e3f90bc43795f8620aec"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 4.758189100000891,
+            "eval_count": 144,
+            "tokens_per_second": 30.26361436538389,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03749643942204006
+          },
+          "seed": 44
+        },
+        {
+          "answer": "14 years",
+          "chunk_ids": [
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_5594399320980e1f50e0f1c6",
+            "chunk_c37a3748971446032c1b412d",
+            "chunk_339611e42e90706c7c8704ce",
+            "chunk_ece2e3f90bc43795f8620aec"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.278068300000086,
+            "eval_count": 144,
+            "tokens_per_second": 27.282708713715895,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03749643942204006
+          },
+          "seed": 45
+        },
+        {
+          "answer": "14 years",
+          "chunk_ids": [
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_5594399320980e1f50e0f1c6",
+            "chunk_c37a3748971446032c1b412d",
+            "chunk_339611e42e90706c7c8704ce",
+            "chunk_ece2e3f90bc43795f8620aec"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.349607199999809,
+            "eval_count": 144,
+            "tokens_per_second": 26.917864175150118,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03749643942204006
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 1.0,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_04",
+      "temperature": 0.3,
+      "runs": [
+        {
+          "answer": "14 years",
+          "chunk_ids": [
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_5594399320980e1f50e0f1c6",
+            "chunk_c37a3748971446032c1b412d",
+            "chunk_339611e42e90706c7c8704ce",
+            "chunk_ece2e3f90bc43795f8620aec"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 4.78973489999953,
+            "eval_count": 144,
+            "tokens_per_second": 30.064294372537013,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03749643942204006
+          },
+          "seed": 42
+        },
+        {
+          "answer": "14 years",
+          "chunk_ids": [
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_5594399320980e1f50e0f1c6",
+            "chunk_c37a3748971446032c1b412d",
+            "chunk_339611e42e90706c7c8704ce",
+            "chunk_ece2e3f90bc43795f8620aec"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.261347300000125,
+            "eval_count": 144,
+            "tokens_per_second": 27.369415434711293,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03749643942204006
+          },
+          "seed": 43
+        },
+        {
+          "answer": "14 years",
+          "chunk_ids": [
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_5594399320980e1f50e0f1c6",
+            "chunk_c37a3748971446032c1b412d",
+            "chunk_339611e42e90706c7c8704ce",
+            "chunk_ece2e3f90bc43795f8620aec"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.015003399999841,
+            "eval_count": 144,
+            "tokens_per_second": 28.713838957717268,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03749643942204006
+          },
+          "seed": 44
+        },
+        {
+          "answer": "14 years",
+          "chunk_ids": [
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_5594399320980e1f50e0f1c6",
+            "chunk_c37a3748971446032c1b412d",
+            "chunk_339611e42e90706c7c8704ce",
+            "chunk_ece2e3f90bc43795f8620aec"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.395485200000621,
+            "eval_count": 152,
+            "tokens_per_second": 28.171701777623724,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03329091049588453
+          },
+          "seed": 45
+        },
+        {
+          "answer": "14 years",
+          "chunk_ids": [
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_5594399320980e1f50e0f1c6",
+            "chunk_c37a3748971446032c1b412d",
+            "chunk_339611e42e90706c7c8704ce",
+            "chunk_ece2e3f90bc43795f8620aec"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.275445400000535,
+            "eval_count": 152,
+            "tokens_per_second": 28.812733044300785,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03329091049588453
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 1.0,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_04",
+      "temperature": 0.7,
+      "runs": [
+        {
+          "answer": "14 years",
+          "chunk_ids": [
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_5594399320980e1f50e0f1c6",
+            "chunk_c37a3748971446032c1b412d",
+            "chunk_339611e42e90706c7c8704ce",
+            "chunk_ece2e3f90bc43795f8620aec"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.107949900000676,
+            "eval_count": 144,
+            "tokens_per_second": 28.191349331750676,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03749643942204006
+          },
+          "seed": 42
+        },
+        {
+          "answer": "14 years",
+          "chunk_ids": [
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_5594399320980e1f50e0f1c6",
+            "chunk_c37a3748971446032c1b412d",
+            "chunk_339611e42e90706c7c8704ce",
+            "chunk_ece2e3f90bc43795f8620aec"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 4.928683100000853,
+            "eval_count": 144,
+            "tokens_per_second": 29.216729312536867,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03749643942204006
+          },
+          "seed": 43
+        },
+        {
+          "answer": "14 years",
+          "chunk_ids": [
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_5594399320980e1f50e0f1c6",
+            "chunk_c37a3748971446032c1b412d",
+            "chunk_339611e42e90706c7c8704ce",
+            "chunk_ece2e3f90bc43795f8620aec"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.542860400000791,
+            "eval_count": 144,
+            "tokens_per_second": 25.979366177069778,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03749643942204006
+          },
+          "seed": 44
+        },
+        {
+          "answer": "14 years",
+          "chunk_ids": [
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_5594399320980e1f50e0f1c6",
+            "chunk_c37a3748971446032c1b412d",
+            "chunk_339611e42e90706c7c8704ce",
+            "chunk_ece2e3f90bc43795f8620aec"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.9964988000010635,
+            "eval_count": 152,
+            "tokens_per_second": 25.34812480909244,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03329091049588453
+          },
+          "seed": 45
+        },
+        {
+          "answer": "14 years",
+          "chunk_ids": [
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_5594399320980e1f50e0f1c6",
+            "chunk_c37a3748971446032c1b412d",
+            "chunk_339611e42e90706c7c8704ce",
+            "chunk_ece2e3f90bc43795f8620aec"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.615283000001,
+            "eval_count": 152,
+            "tokens_per_second": 27.0689829880298,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03329091049588453
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 1.0,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_05",
+      "temperature": 0,
+      "runs": [
+        {
+          "answer": "75%",
+          "chunk_ids": [
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_b79b0e39a9499f2e31198557",
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_19b41bbcb546e7c22796ebef"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.277545500000997,
+            "eval_count": 142,
+            "tokens_per_second": 26.906447324797707,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.01670044418627355
+          },
+          "seed": 42
+        },
+        {
+          "answer": "75%",
+          "chunk_ids": [
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_b79b0e39a9499f2e31198557",
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_19b41bbcb546e7c22796ebef"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.4088198999997985,
+            "eval_count": 142,
+            "tokens_per_second": 26.25341620267395,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.01670044418627355
+          },
+          "seed": 43
+        },
+        {
+          "answer": "75%",
+          "chunk_ids": [
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_b79b0e39a9499f2e31198557",
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_19b41bbcb546e7c22796ebef"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.179014999999708,
+            "eval_count": 142,
+            "tokens_per_second": 27.418341132436957,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.01670044418627355
+          },
+          "seed": 44
+        },
+        {
+          "answer": "75%",
+          "chunk_ids": [
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_b79b0e39a9499f2e31198557",
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_19b41bbcb546e7c22796ebef"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.066256199999771,
+            "eval_count": 142,
+            "tokens_per_second": 28.02858647377652,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.01670044418627355
+          },
+          "seed": 45
+        },
+        {
+          "answer": "75%",
+          "chunk_ids": [
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_b79b0e39a9499f2e31198557",
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_19b41bbcb546e7c22796ebef"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.132045199999993,
+            "eval_count": 142,
+            "tokens_per_second": 27.669280855125788,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.01670044418627355
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 1.0,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_05",
+      "temperature": 0.3,
+      "runs": [
+        {
+          "answer": "75%",
+          "chunk_ids": [
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_b79b0e39a9499f2e31198557",
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_19b41bbcb546e7c22796ebef"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.236789499998849,
+            "eval_count": 142,
+            "tokens_per_second": 27.115850274300925,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.01670044418627355
+          },
+          "seed": 42
+        },
+        {
+          "answer": "75%",
+          "chunk_ids": [
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_b79b0e39a9499f2e31198557",
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_19b41bbcb546e7c22796ebef"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.81478849999985,
+            "eval_count": 142,
+            "tokens_per_second": 24.420492680000944,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.01670044418627355
+          },
+          "seed": 43
+        },
+        {
+          "answer": "75%",
+          "chunk_ids": [
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_b79b0e39a9499f2e31198557",
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_19b41bbcb546e7c22796ebef"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 6.008402100000239,
+            "eval_count": 142,
+            "tokens_per_second": 23.633571394962786,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.01670044418627355
+          },
+          "seed": 44
+        },
+        {
+          "answer": "75%",
+          "chunk_ids": [
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_b79b0e39a9499f2e31198557",
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_19b41bbcb546e7c22796ebef"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.2271291999986715,
+            "eval_count": 142,
+            "tokens_per_second": 27.165963297795678,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.01670044418627355
+          },
+          "seed": 45
+        },
+        {
+          "answer": "75%",
+          "chunk_ids": [
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_b79b0e39a9499f2e31198557",
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_19b41bbcb546e7c22796ebef"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.117057900000873,
+            "eval_count": 142,
+            "tokens_per_second": 27.750321136678124,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.01670044418627355
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 1.0,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_05",
+      "temperature": 0.7,
+      "runs": [
+        {
+          "answer": "75%",
+          "chunk_ids": [
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_b79b0e39a9499f2e31198557",
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_19b41bbcb546e7c22796ebef"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 6.03467289999935,
+            "eval_count": 142,
+            "tokens_per_second": 23.530687139648496,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.01670044418627355
+          },
+          "seed": 42
+        },
+        {
+          "answer": "75%",
+          "chunk_ids": [
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_b79b0e39a9499f2e31198557",
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_19b41bbcb546e7c22796ebef"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.6416017999999895,
+            "eval_count": 142,
+            "tokens_per_second": 25.170156461592214,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.01670044418627355
+          },
+          "seed": 43
+        },
+        {
+          "answer": "75%",
+          "chunk_ids": [
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_b79b0e39a9499f2e31198557",
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_19b41bbcb546e7c22796ebef"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 6.047920299999532,
+            "eval_count": 142,
+            "tokens_per_second": 23.479145384903795,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.01670044418627355
+          },
+          "seed": 44
+        },
+        {
+          "answer": "The invented academic cut-off is 75% marks.",
+          "chunk_ids": [
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_b79b0e39a9499f2e31198557",
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_19b41bbcb546e7c22796ebef"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.8617470000008325,
+            "eval_count": 151,
+            "tokens_per_second": 25.76023837261802,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03194833546753894
+          },
+          "seed": 45
+        },
+        {
+          "answer": "BSS collegiate",
+          "chunk_ids": [
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_b79b0e39a9499f2e31198557",
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_19b41bbcb546e7c22796ebef"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.194501899999523,
+            "eval_count": 143,
+            "tokens_per_second": 27.52910726628344,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.029602142742412192
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 0.6,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_06",
+      "temperature": 0,
+      "runs": [
+        {
+          "answer": "MJK College",
+          "chunk_ids": [
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_38e2231ae79ae88361aa21ed",
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_80b848348b7d403586b4b83b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 4.60190909999983,
+            "eval_count": 118,
+            "tokens_per_second": 25.641532119790103,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03170592551091
+          },
+          "seed": 42
+        },
+        {
+          "answer": "MJK College",
+          "chunk_ids": [
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_38e2231ae79ae88361aa21ed",
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_80b848348b7d403586b4b83b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 4.363409800000227,
+            "eval_count": 118,
+            "tokens_per_second": 27.043070765435296,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03170592551091
+          },
+          "seed": 43
+        },
+        {
+          "answer": "MJK College",
+          "chunk_ids": [
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_38e2231ae79ae88361aa21ed",
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_80b848348b7d403586b4b83b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 4.697398700000122,
+            "eval_count": 118,
+            "tokens_per_second": 25.120286255453884,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03170592551091
+          },
+          "seed": 44
+        },
+        {
+          "answer": "MJK College",
+          "chunk_ids": [
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_38e2231ae79ae88361aa21ed",
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_80b848348b7d403586b4b83b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 4.206815100000313,
+            "eval_count": 118,
+            "tokens_per_second": 28.04972341189686,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03170592551091
+          },
+          "seed": 45
+        },
+        {
+          "answer": "MJK College",
+          "chunk_ids": [
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_38e2231ae79ae88361aa21ed",
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_80b848348b7d403586b4b83b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 4.1558714999991935,
+            "eval_count": 118,
+            "tokens_per_second": 28.39356317923278,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03170592551091
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 1.0,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_06",
+      "temperature": 0.3,
+      "runs": [
+        {
+          "answer": "MJK College",
+          "chunk_ids": [
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_38e2231ae79ae88361aa21ed",
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_80b848348b7d403586b4b83b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 4.321097500000178,
+            "eval_count": 118,
+            "tokens_per_second": 27.307877223320034,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03170592551091
+          },
+          "seed": 42
+        },
+        {
+          "answer": "chunk_49b1839b8bd684f26f1b1571",
+          "chunk_ids": [
+            "chunk_49b1839b8bd684f26f1b1571"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 2.3114435999996203,
+            "eval_count": 62,
+            "tokens_per_second": 26.82306416648461,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.04627094255192879
+          },
+          "seed": 43
+        },
+        {
+          "answer": "MJK College",
+          "chunk_ids": [
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_38e2231ae79ae88361aa21ed",
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_80b848348b7d403586b4b83b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.213059499999872,
+            "eval_count": 118,
+            "tokens_per_second": 22.63546004030894,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03170592551091
+          },
+          "seed": 44
+        },
+        {
+          "answer": "chunk_49b1839b8bd684f26f1b1571",
+          "chunk_ids": [
+            "chunk_49b1839b8bd684f26f1b1571"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 2.4106535999999323,
+            "eval_count": 62,
+            "tokens_per_second": 25.719165955656898,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.04627094255192879
+          },
+          "seed": 45
+        },
+        {
+          "answer": "chunk_49b1839b8bd684f26f1b1571",
+          "chunk_ids": [
+            "chunk_49b1839b8bd684f26f1b1571"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 2.252185499999541,
+            "eval_count": 62,
+            "tokens_per_second": 27.528815899051224,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.04627094255192879
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 0.6,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_06",
+      "temperature": 0.7,
+      "runs": [
+        {
+          "answer": "MJK College",
+          "chunk_ids": [
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_38e2231ae79ae88361aa21ed"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 2.3312124999993102,
+            "eval_count": 64,
+            "tokens_per_second": 27.453524721585413,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.07097227041518117
+          },
+          "seed": 42
+        },
+        {
+          "answer": "MJK College",
+          "chunk_ids": "chunk_49b1839b8bd684f26f1b1571, chunk_38e2231ae79ae88361aa21ed, chunk_e22546a0cd42e92a13074a97, chunk_80b848348b7d403586b4b83b",
+          "citations_valid": false,
+          "usage": {
+            "elapsed_seconds": 4.344319099998756,
+            "eval_count": 115,
+            "tokens_per_second": 26.47135197781234,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.06806751496649609
+          },
+          "seed": 43
+        },
+        {
+          "answer": "MJK College",
+          "chunk_ids": [
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_e22546a0cd42e92a13074a97"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 2.3918692999995983,
+            "eval_count": 66,
+            "tokens_per_second": 27.593480964871738,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.06791141317828826
+          },
+          "seed": 44
+        },
+        {
+          "answer": "chunk_38e2231ae79ae88361aa21ed",
+          "chunk_ids": [
+            "chunk_38e2231ae79ae88361aa21ed"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 2.0088905000011437,
+            "eval_count": 56,
+            "tokens_per_second": 27.87608383830185,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.06358364208410043
+          },
+          "seed": 45
+        },
+        {
+          "answer": "CIRC-2026-06",
+          "chunk_ids": [
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_38e2231ae79ae88361aa21ed",
+            "chunk_e22546a0cd42e92a13074a97",
+            "chunk_80b848348b7d403586b4b83b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 4.45837070000016,
+            "eval_count": 125,
+            "tokens_per_second": 28.037148189583142,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.056275265093848476
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 0.2,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_07",
+      "temperature": 0,
+      "runs": [
+        {
+          "answer": "Rule 9 requires proof of age and prior examination marks.",
+          "chunk_ids": [
+            "chunk_499be8d2dc1194a598cdfb64"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.9743858000001637,
+            "eval_count": 53,
+            "tokens_per_second": 26.843791117215087,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09576935702617
+          },
+          "seed": 42
+        },
+        {
+          "answer": "Rule 9 requires proof of age and prior examination marks.",
+          "chunk_ids": [
+            "chunk_499be8d2dc1194a598cdfb64"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 2.0157724999990023,
+            "eval_count": 53,
+            "tokens_per_second": 26.29264959216689,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09576935702617
+          },
+          "seed": 43
+        },
+        {
+          "answer": "Rule 9 requires proof of age and prior examination marks.",
+          "chunk_ids": [
+            "chunk_499be8d2dc1194a598cdfb64"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.8727037999997265,
+            "eval_count": 53,
+            "tokens_per_second": 28.301325602056096,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09576935702617
+          },
+          "seed": 44
+        },
+        {
+          "answer": "Rule 9 requires proof of age and prior examination marks.",
+          "chunk_ids": [
+            "chunk_499be8d2dc1194a598cdfb64"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 2.0240563999996084,
+            "eval_count": 53,
+            "tokens_per_second": 26.185041088781052,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09576935702617
+          },
+          "seed": 45
+        },
+        {
+          "answer": "Rule 9 requires proof of age and prior examination marks.",
+          "chunk_ids": [
+            "chunk_499be8d2dc1194a598cdfb64"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 2.087291499999992,
+            "eval_count": 53,
+            "tokens_per_second": 25.391757691726433,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09576935702617
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 1.0,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_07",
+      "temperature": 0.3,
+      "runs": [
+        {
+          "answer": "Rule 9 requires proof of age and prior examination marks.",
+          "chunk_ids": [
+            "chunk_eae0a0e8db3001fa2345d5de"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.836119299998245,
+            "eval_count": 52,
+            "tokens_per_second": 28.32059986518834,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.0978115184570624
+          },
+          "seed": 42
+        },
+        {
+          "answer": "Rule 9 requires proof of age and prior examination marks.",
+          "chunk_ids": [
+            "chunk_499be8d2dc1194a598cdfb64"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 2.031671099999585,
+            "eval_count": 53,
+            "tokens_per_second": 26.086899597090706,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09576935702617
+          },
+          "seed": 43
+        },
+        {
+          "answer": "Rule 9 requires proof of age and prior examination marks.",
+          "chunk_ids": [
+            "chunk_eae0a0e8db3001fa2345d5de"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.9123488999994152,
+            "eval_count": 52,
+            "tokens_per_second": 27.191690804965507,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.0978115184570624
+          },
+          "seed": 44
+        },
+        {
+          "answer": "Rule 9 requires proof of age and prior examination marks.",
+          "chunk_ids": [
+            "chunk_2324d897e70bfecdc9763d2e",
+            "chunk_fe3a5da9cba24ae92f5e8416",
+            "chunk_fed8acc684e27dec08d2fc03",
+            "chunk_eae0a0e8db3001fa2345d5de",
+            "chunk_499be8d2dc1194a598cdfb64"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 4.824997499999881,
+            "eval_count": 136,
+            "tokens_per_second": 28.1865431018365,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03911968021180268
+          },
+          "seed": 45
+        },
+        {
+          "answer": "Rule 9 requires proof of age and prior examination marks.",
+          "chunk_ids": [
+            "chunk_2324d897e70bfecdc9763d2e",
+            "chunk_fe3a5da9cba24ae92f5e8416",
+            "chunk_fed8acc684e27dec08d2fc03",
+            "chunk_eae0a0e8db3001fa2345d5de",
+            "chunk_499be8d2dc1194a598cdfb64"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 4.720000199999049,
+            "eval_count": 136,
+            "tokens_per_second": 28.813558101126226,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03911968021180268
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 0.4,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_07",
+      "temperature": 0.7,
+      "runs": [
+        {
+          "answer": "Rule 9 requires proof of age and prior examination marks.",
+          "chunk_ids": [
+            "chunk_eae0a0e8db3001fa2345d5de"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.809891000000789,
+            "eval_count": 52,
+            "tokens_per_second": 28.731011978056873,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.0978115184570624
+          },
+          "seed": 42
+        },
+        {
+          "answer": "Rule 9",
+          "chunk_ids": [
+            "chunk_499be8d2dc1194a598cdfb64"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.6987740999993548,
+            "eval_count": 45,
+            "tokens_per_second": 26.4896904185301,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.1353135123041745
+          },
+          "seed": 43
+        },
+        {
+          "answer": "Rule 9 requires proof of age and prior examination marks.",
+          "chunk_ids": [
+            "chunk_fed8acc684e27dec08d2fc03"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 2.3096383000010974,
+            "eval_count": 50,
+            "tokens_per_second": 21.648411355135668,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.12762297474357864
+          },
+          "seed": 44
+        },
+        {
+          "answer": "Rule 9 requires proof of age and prior examination marks.",
+          "chunk_ids": [
+            "chunk_2324d897e70bfecdc9763d2e",
+            "chunk_fe3a5da9cba24ae92f5e8416",
+            "chunk_fed8acc684e27dec08d2fc03",
+            "chunk_eae0a0e8db3001fa2345d5de",
+            "chunk_499be8d2dc1194a598cdfb64"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 4.882473800000298,
+            "eval_count": 136,
+            "tokens_per_second": 27.854732164664497,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03911968021180268
+          },
+          "seed": 45
+        },
+        {
+          "answer": "Rule 9 requires proof of age and prior examination marks.",
+          "chunk_ids": [
+            "chunk_2324d897e70bfecdc9763d2e",
+            "chunk_fe3a5da9cba24ae92f5e8416",
+            "chunk_fed8acc684e27dec08d2fc03",
+            "chunk_eae0a0e8db3001fa2345d5de",
+            "chunk_499be8d2dc1194a598cdfb64"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 4.722105400000146,
+            "eval_count": 136,
+            "tokens_per_second": 28.800712495743063,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03911968021180268
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 0.4,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_08",
+      "temperature": 0,
+      "runs": [
+        {
+          "answer": "Sector 3",
+          "chunk_ids": [
+            "chunk_82925b5d841196e02fcd3b46"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.6290791999999783,
+            "eval_count": 40,
+            "tokens_per_second": 24.55374790863485,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.10486045869006091
+          },
+          "seed": 42
+        },
+        {
+          "answer": "Sector 3",
+          "chunk_ids": [
+            "chunk_82925b5d841196e02fcd3b46"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.4184199999999691,
+            "eval_count": 40,
+            "tokens_per_second": 28.20039198544921,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.10486045869006091
+          },
+          "seed": 43
+        },
+        {
+          "answer": "Sector 3",
+          "chunk_ids": [
+            "chunk_82925b5d841196e02fcd3b46"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.3888788999993267,
+            "eval_count": 40,
+            "tokens_per_second": 28.800207131103647,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.10486045869006091
+          },
+          "seed": 44
+        },
+        {
+          "answer": "Sector 3",
+          "chunk_ids": [
+            "chunk_82925b5d841196e02fcd3b46"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.4092034000004787,
+            "eval_count": 40,
+            "tokens_per_second": 28.38483074905043,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.10486045869006091
+          },
+          "seed": 45
+        },
+        {
+          "answer": "Sector 3",
+          "chunk_ids": [
+            "chunk_82925b5d841196e02fcd3b46"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.4681578999989142,
+            "eval_count": 40,
+            "tokens_per_second": 27.24502589267107,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.10486045869006091
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 1.0,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_08",
+      "temperature": 0.3,
+      "runs": [
+        {
+          "answer": "Sector 3",
+          "chunk_ids": [
+            "chunk_82925b5d841196e02fcd3b46"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.5876587999991898,
+            "eval_count": 40,
+            "tokens_per_second": 25.19433016717472,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.10486045869006091
+          },
+          "seed": 42
+        },
+        {
+          "answer": "Sector 3",
+          "chunk_ids": [
+            "chunk_82925b5d841196e02fcd3b46"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.578117300001395,
+            "eval_count": 40,
+            "tokens_per_second": 25.346658325059007,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.10486045869006091
+          },
+          "seed": 43
+        },
+        {
+          "answer": "Sector 3",
+          "chunk_ids": [
+            "chunk_82925b5d841196e02fcd3b46"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.6314000000002125,
+            "eval_count": 40,
+            "tokens_per_second": 24.518818192959905,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.10486045869006091
+          },
+          "seed": 44
+        },
+        {
+          "answer": "Sector 3",
+          "chunk_ids": [
+            "chunk_82925b5d841196e02fcd3b46"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.5101036999985809,
+            "eval_count": 40,
+            "tokens_per_second": 26.488247131662277,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.10486045869006091
+          },
+          "seed": 45
+        },
+        {
+          "answer": "Sector 3",
+          "chunk_ids": [
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_49b1839b8bd684f26f1b1571"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 2.2742161999995005,
+            "eval_count": 66,
+            "tokens_per_second": 29.020987538482267,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.08161306506372229
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 0.8,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_08",
+      "temperature": 0.7,
+      "runs": [
+        {
+          "answer": "Sector 3",
+          "chunk_ids": [
+            "chunk_82925b5d841196e02fcd3b46"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.4682021000007808,
+            "eval_count": 40,
+            "tokens_per_second": 27.244205685292734,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.10486045869006091
+          },
+          "seed": 42
+        },
+        {
+          "answer": "Sector 3",
+          "chunk_ids": [
+            "chunk_82925b5d841196e02fcd3b46"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.4946731,
+            "eval_count": 40,
+            "tokens_per_second": 26.761704616213404,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.10486045869006091
+          },
+          "seed": 43
+        },
+        {
+          "answer": "Sector 3",
+          "chunk_ids": [
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_49b1839b8bd684f26f1b1571",
+            "chunk_82925b5d841196e02fcd3b46"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 3.239949400000114,
+            "eval_count": 93,
+            "tokens_per_second": 28.704151984594798,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.05638845590228891
+          },
+          "seed": 44
+        },
+        {
+          "answer": "Sector 3",
+          "chunk_ids": [
+            "chunk_82925b5d841196e02fcd3b46"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.554344399999536,
+            "eval_count": 40,
+            "tokens_per_second": 25.734322457759,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.10486045869006091
+          },
+          "seed": 45
+        },
+        {
+          "answer": "Sector 3",
+          "chunk_ids": [
+            "chunk_ba863367a9132d68db20d81c",
+            "chunk_49b1839b8bd684f26f1b1571"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 2.595408799999859,
+            "eval_count": 66,
+            "tokens_per_second": 25.429520004711236,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.08161306506372229
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 0.6,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_09",
+      "temperature": 0,
+      "runs": [
+        {
+          "answer": "Circular CIRC-2026-01",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.9549344000006386,
+            "eval_count": 48,
+            "tokens_per_second": 24.553253551620106,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.06776244449286158
+          },
+          "seed": 42
+        },
+        {
+          "answer": "Circular CIRC-2026-01",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.7178626000004442,
+            "eval_count": 48,
+            "tokens_per_second": 27.94169917896087,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.06776244449286158
+          },
+          "seed": 43
+        },
+        {
+          "answer": "Circular CIRC-2026-01",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.754362099998616,
+            "eval_count": 48,
+            "tokens_per_second": 27.36037218316439,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.06776244449286158
+          },
+          "seed": 44
+        },
+        {
+          "answer": "Circular CIRC-2026-01",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.7908597000005102,
+            "eval_count": 48,
+            "tokens_per_second": 26.802769641857665,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.06776244449286158
+          },
+          "seed": 45
+        },
+        {
+          "answer": "Circular CIRC-2026-01",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.8324721999997564,
+            "eval_count": 48,
+            "tokens_per_second": 26.194121798959014,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.06776244449286158
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 1.0,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_09",
+      "temperature": 0.3,
+      "runs": [
+        {
+          "answer": "Circular CIRC-2026-01",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.7478905999996641,
+            "eval_count": 48,
+            "tokens_per_second": 27.461672944524803,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.06776244449286158
+          },
+          "seed": 42
+        },
+        {
+          "answer": "Circular CIRC-2026-01",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.7647928999995202,
+            "eval_count": 48,
+            "tokens_per_second": 27.198658834140286,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.06776244449286158
+          },
+          "seed": 43
+        },
+        {
+          "answer": "Circular CIRC-2026-01",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.7347062999997434,
+            "eval_count": 48,
+            "tokens_per_second": 27.67039008275182,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.06776244449286158
+          },
+          "seed": 44
+        },
+        {
+          "answer": "Circular CIRC-2026-01",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.6754510999999184,
+            "eval_count": 48,
+            "tokens_per_second": 28.64900085714369,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.06776244449286158
+          },
+          "seed": 45
+        },
+        {
+          "answer": "Circular CIRC-2026-01",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.6599139999998442,
+            "eval_count": 48,
+            "tokens_per_second": 28.91716076857265,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.06776244449286158
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 1.0,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_09",
+      "temperature": 0.7,
+      "runs": [
+        {
+          "answer": "Circular CIRC-2026-09",
+          "chunk_ids": [
+            "chunk_17df9506dff06178c9534a71",
+            "chunk_2cd8ac290a838f11fcbbb22e",
+            "chunk_9db48df7f8db4d9329d40db4",
+            "chunk_9b114029d9e753b98e9f2732",
+            "chunk_5bf1c3356c26c10f0c079d86"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 5.120095100000981,
+            "eval_count": 148,
+            "tokens_per_second": 28.905713098956237,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.03538820195530421
+          },
+          "seed": 42
+        },
+        {
+          "answer": "Circular CIRC-2026-01",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.6969286000003194,
+            "eval_count": 48,
+            "tokens_per_second": 28.28639932168682,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.06776244449286158
+          },
+          "seed": 43
+        },
+        {
+          "answer": "Circular CIRC-2026-01",
+          "chunk_ids": [
+            "chunk_9b114029d9e753b98e9f2732"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.7453624999998283,
+            "eval_count": 49,
+            "tokens_per_second": 28.074397152456765,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.0912599677530338
+          },
+          "seed": 44
+        },
+        {
+          "answer": "Circular CIRC-2026-01",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86",
+            "chunk_9db48df7f8db4d9329d40db4"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 2.4913433000001532,
+            "eval_count": 72,
+            "tokens_per_second": 28.90007170027333,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.08762702657808082
+          },
+          "seed": 45
+        },
+        {
+          "answer": "Circular CIRC-2026-01",
+          "chunk_ids": [
+            "chunk_5bf1c3356c26c10f0c079d86"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.6813590000001568,
+            "eval_count": 48,
+            "tokens_per_second": 28.548335007571566,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.06776244449286158
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 0.4,
+      "reference_phrase_proxy": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_10",
+      "temperature": 0,
+      "runs": [
+        {
+          "answer": "287430896",
+          "chunk_ids": [
+            "chunk_11c2d2eeb93b90da4ea7919b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.6119928999996773,
+            "eval_count": 44,
+            "tokens_per_second": 27.295405581506476,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09256675475820036
+          },
+          "seed": 42
+        },
+        {
+          "answer": "287430896",
+          "chunk_ids": [
+            "chunk_11c2d2eeb93b90da4ea7919b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.5097369000013714,
+            "eval_count": 44,
+            "tokens_per_second": 29.144150878182835,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09256675475820036
+          },
+          "seed": 43
+        },
+        {
+          "answer": "287430896",
+          "chunk_ids": [
+            "chunk_11c2d2eeb93b90da4ea7919b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.8112586000006559,
+            "eval_count": 44,
+            "tokens_per_second": 24.2925002536822,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09256675475820036
+          },
+          "seed": 44
+        },
+        {
+          "answer": "287430896",
+          "chunk_ids": [
+            "chunk_11c2d2eeb93b90da4ea7919b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.5245467999993707,
+            "eval_count": 44,
+            "tokens_per_second": 28.86103594853117,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09256675475820036
+          },
+          "seed": 45
+        },
+        {
+          "answer": "287430896",
+          "chunk_ids": [
+            "chunk_11c2d2eeb93b90da4ea7919b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.5696134000008897,
+            "eval_count": 44,
+            "tokens_per_second": 28.032380457490397,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09256675475820036
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 1.0,
+      "reference_phrase_proxy": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_10",
+      "temperature": 0.3,
+      "runs": [
+        {
+          "answer": "287430896",
+          "chunk_ids": [
+            "chunk_11c2d2eeb93b90da4ea7919b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.539243199998964,
+            "eval_count": 44,
+            "tokens_per_second": 28.585476291225206,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09256675475820036
+          },
+          "seed": 42
+        },
+        {
+          "answer": "287430896",
+          "chunk_ids": [
+            "chunk_11c2d2eeb93b90da4ea7919b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.6826276000010694,
+            "eval_count": 44,
+            "tokens_per_second": 26.149577006802954,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09256675475820036
+          },
+          "seed": 43
+        },
+        {
+          "answer": "287430896",
+          "chunk_ids": [
+            "chunk_11c2d2eeb93b90da4ea7919b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.5991938000006485,
+            "eval_count": 44,
+            "tokens_per_second": 27.51386354798409,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09256675475820036
+          },
+          "seed": 44
+        },
+        {
+          "answer": "287430896",
+          "chunk_ids": [
+            "chunk_11c2d2eeb93b90da4ea7919b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.9238778999988426,
+            "eval_count": 44,
+            "tokens_per_second": 22.870474264518798,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09256675475820036
+          },
+          "seed": 45
+        },
+        {
+          "answer": "287430896",
+          "chunk_ids": [
+            "chunk_11c2d2eeb93b90da4ea7919b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.7587683000001562,
+            "eval_count": 44,
+            "tokens_per_second": 25.017507991243697,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.3,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09256675475820036
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 1.0,
+      "reference_phrase_proxy": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    },
+    {
+      "id": "syn_dev_10",
+      "temperature": 0.7,
+      "runs": [
+        {
+          "answer": "287430896",
+          "chunk_ids": [
+            "chunk_11c2d2eeb93b90da4ea7919b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.5247631000002002,
+            "eval_count": 44,
+            "tokens_per_second": 28.856941776722053,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09256675475820036
+          },
+          "seed": 42
+        },
+        {
+          "answer": "287430896",
+          "chunk_ids": [
+            "chunk_11c2d2eeb93b90da4ea7919b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.5714414000012766,
+            "eval_count": 44,
+            "tokens_per_second": 27.999771420025116,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 43,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09256675475820036
+          },
+          "seed": 43
+        },
+        {
+          "answer": "287430896",
+          "chunk_ids": [
+            "chunk_11c2d2eeb93b90da4ea7919b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.5553792999999132,
+            "eval_count": 44,
+            "tokens_per_second": 28.28891962237279,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 44,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09256675475820036
+          },
+          "seed": 44
+        },
+        {
+          "answer": "287430896",
+          "chunk_ids": [
+            "chunk_11c2d2eeb93b90da4ea7919b"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.487600399999792,
+            "eval_count": 44,
+            "tokens_per_second": 29.577835553154028,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 45,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09256675475820036
+          },
+          "seed": 45
+        },
+        {
+          "answer": "544904293",
+          "chunk_ids": [
+            "chunk_28532e732519bdff7947a24e"
+          ],
+          "citations_valid": true,
+          "usage": {
+            "elapsed_seconds": 1.4945176000001084,
+            "eval_count": 45,
+            "tokens_per_second": 30.110050226238045,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 46,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.099777113348259
+          },
+          "seed": 46
+        }
+      ],
+      "majority_exact_text_citation_proxy": 0.8,
+      "reference_phrase_proxy": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "human_answer_correctness": null,
+      "human_citation_correctness": null
+    }
+  ],
+  "summary_by_temperature": {
+    "0": {
+      "mean_majority_consistency": 1.0,
+      "citation_valid_run_fraction": 1.0
+    },
+    "0.3": {
+      "mean_majority_consistency": 0.82,
+      "citation_valid_run_fraction": 1.0
+    },
+    "0.7": {
+      "mean_majority_consistency": 0.54,
+      "citation_valid_run_fraction": 0.96
+    }
+  }
+}

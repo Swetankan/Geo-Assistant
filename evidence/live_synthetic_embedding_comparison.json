@@ -1,0 +1,59 @@
+{
+  "synthetic_judgments": true,
+  "documents": 1078,
+  "models": [
+    {
+      "model": "intfloat/e5-small-v2",
+      "dimensions": 384,
+      "load_seconds": 11.946923100000276,
+      "encoding_seconds": 18.74984240000049,
+      "chunks_per_second": 57.49381658802486,
+      "query_count": 10,
+      "mean_recall_at_5": 0.2,
+      "per_query_recall_at_5": [
+        0.0,
+        0.5,
+        0.5,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "rss_bytes_after_encoding": 688197632,
+      "prefixes": {
+        "query": "query: ",
+        "document": "passage: "
+      }
+    },
+    {
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "dimensions": 384,
+      "load_seconds": 0.3561561000005895,
+      "encoding_seconds": 9.360758499999065,
+      "chunks_per_second": 115.16160789749118,
+      "query_count": 10,
+      "mean_recall_at_5": 0.35,
+      "per_query_recall_at_5": [
+        0.0,
+        0.5,
+        0.5,
+        0.5,
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        1.0,
+        0.5
+      ],
+      "rss_bytes_after_encoding": 795906048,
+      "prefixes": {
+        "query": "",
+        "document": ""
+      }
+    }
+  ],
+  "note": "Quality metrics are relative to generated synthetic labels."
+}

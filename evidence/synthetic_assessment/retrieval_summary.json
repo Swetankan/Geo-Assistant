@@ -1,0 +1,31 @@
+{
+  "synthetic": true,
+  "tuned_rrf_constant": 20,
+  "tune_graph_hybrid_ndcg5": 0.28043735490489957,
+  "holdout_at_5": {
+    "keyword": {
+      "precision": 0.12,
+      "recall": 0.3,
+      "mrr": 0.306978021978022,
+      "ndcg": 0.20540146895220737
+    },
+    "vector": {
+      "precision": 0.1,
+      "recall": 0.25,
+      "mrr": 0.3532911532911533,
+      "ndcg": 0.2097395435843171
+    },
+    "hybrid": {
+      "precision": 0.1,
+      "recall": 0.25,
+      "mrr": 0.3443589743589744,
+      "ndcg": 0.19892167357931306
+    },
+    "graph_hybrid": {
+      "precision": 0.1,
+      "recall": 0.25,
+      "mrr": 0.3443589743589744,
+      "ndcg": 0.19892167357931306
+    }
+  }
+}

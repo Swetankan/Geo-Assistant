@@ -1,0 +1,39 @@
+flowchart LR
+  subgraph INGEST[Ingestion]
+    D[12 synthetic Markdown circulars] --> C[Chunking and spans]
+    G[schools.gpkg: 1062 school polygons] --> F[GeoJSON features and locations]
+    SYN[Synthetic roads and land-use geometries] --> F
+    C --> EX[Rules plus local LLM extractor]
+    F --> EX
+    EX --> EN[Entity resolution]
+    C --> EM[Local E5 or MiniLM embeddings]
+    EN --> GR[Relations and bounded graph]
+    EM --> CI[(Elasticsearch east_india_chunks)]
+    EN --> EI[(Elasticsearch east_india_entities)]
+    GR --> RI[(Elasticsearch east_india_relations)]
+  end
+  subgraph QUERY[Retrieval]
+    Q[Question] --> QE[Entity detection]
+    Q --> KW[BM25]
+    Q --> KN[kNN vector]
+    QE --> GE[Graph expansion up to 2 hops]
+    KW --> RRF[Hybrid RRF]
+    KN --> RRF
+    GE --> RRF
+    RRF --> CE[Local cross-encoder reranker]
+    CE --> CAL[Fit-only confidence and abstention]
+    CAL --> LLM[Local Qwen 1.5B generation]
+    LLM --> A[Validated JSON answer and citations]
+  end
+  CI --> KW
+  CI --> KN
+  RI --> GE
+  EI --> QE
+  subgraph LOCAL[Local services, loopback only]
+    ES[Elasticsearch 8.19 :9200; rag_app, three scoped indices]
+    GS[GeoServer 2.27 :8080; rag_geo and three WFS layers]
+    MODEL[llama.cpp :8081; Qwen2.5 1.5B Q4_K_M]
+  end
+  ES -. live verified .-> CI
+  GS -. authenticated WFS; non-school layers synthetic .-> F
+  MODEL -. live endpoint; extraction quality limited .-> LLM

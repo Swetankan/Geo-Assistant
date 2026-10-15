@@ -1,0 +1,2692 @@
+{
+  "synthetic": true,
+  "note": "Gold labels are generated from explicit fixture patterns, not assessor annotations.",
+  "results": [
+    {
+      "name": "rules",
+      "temperature": null,
+      "exact": {
+        "Board": {
+          "tp": 20,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Circular": {
+          "tp": 49,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.9423076923076923,
+          "f1": 0.9702970297029703
+        },
+        "Date": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9473684210526315,
+          "f1": 0.972972972972973
+        },
+        "Quantity": {
+          "tp": 19,
+          "fp": 0,
+          "fn": 9,
+          "precision": 1.0,
+          "recall": 0.6785714285714286,
+          "f1": 0.8085106382978724
+        },
+        "Rule": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1": 0.9473684210526316
+        },
+        "School": {
+          "tp": 56,
+          "fp": 12,
+          "fn": 0,
+          "precision": 0.8235294117647058,
+          "recall": 1.0,
+          "f1": 0.9032258064516129
+        }
+      },
+      "relaxed": {
+        "Board": {
+          "tp": 20,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "Circular": {
+          "tp": 49,
+          "fp": 0,
+          "fn": 3,
+          "precision": 1.0,
+          "recall": 0.9423076923076923,
+          "f1": 0.9702970297029703
+        },
+        "Date": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9473684210526315,
+          "f1": 0.972972972972973
+        },
+        "Quantity": {
+          "tp": 19,
+          "fp": 0,
+          "fn": 9,
+          "precision": 1.0,
+          "recall": 0.6785714285714286,
+          "f1": 0.8085106382978724
+        },
+        "Rule": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1": 0.9473684210526316
+        },
+        "School": {
+          "tp": 56,
+          "fp": 12,
+          "fn": 0,
+          "precision": 0.8235294117647058,
+          "recall": 1.0,
+          "f1": 0.9032258064516129
+        }
+      },
+      "failures": [],
+      "timing": [
+        {
+          "chunk_id": "chunk_17460282cdfaba03180a1c36",
+          "seconds": 0.07458000000042375,
+          "usage": {}
+        },
+        {
+          "chunk_id": "chunk_5bf1c3356c26c10f0c079d86",
+          "seconds": 0.08629329999894253,
+          "usage": {}
+        },
+        {
+          "chunk_id": "chunk_903006d6e817eb257650ca0b",
+          "seconds": 0.08321240000077523,
+          "usage": {}
+        },
+        {
+          "chunk_id": "chunk_80b848348b7d403586b4b83b",
+          "seconds": 0.08584350000091945,
+          "usage": {}
+        },
+        {
+          "chunk_id": "chunk_82925b5d841196e02fcd3b46",
+          "seconds": 0.06932229999983974,
+          "usage": {}
+        },
+        {
+          "chunk_id": "chunk_ba863367a9132d68db20d81c",
+          "seconds": 0.08333780000066326,
+          "usage": {}
+        },
+        {
+          "chunk_id": "chunk_e22546a0cd42e92a13074a97",
+          "seconds": 0.08395519999976386,
+          "usage": {}
+        },
+        {
+          "chunk_id": "chunk_49b1839b8bd684f26f1b1571",
+          "seconds": 0.08341349999864178,
+          "usage": {}
+        },
+        {
+          "chunk_id": "chunk_2324d897e70bfecdc9763d2e",
+          "seconds": 0.0848134999996546,
+          "usage": {}
+        },
+        {
+          "chunk_id": "chunk_19b41bbcb546e7c22796ebef",
+          "seconds": 0.08357530000102997,
+          "usage": {}
+        },
+        {
+          "chunk_id": "chunk_17df9506dff06178c9534a71",
+          "seconds": 0.08443179999994754,
+          "usage": {}
+        },
+        {
+          "chunk_id": "chunk_eae0a0e8db3001fa2345d5de",
+          "seconds": 0.0683467999988352,
+          "usage": {}
+        }
+      ],
+      "predicted": [
+        {
+          "document_id": "doc_1d62adc8cec426794d1080b4",
+          "end": 155,
+          "page": null,
+          "start": 149,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_1d62adc8cec426794d1080b4",
+          "end": 189,
+          "page": null,
+          "start": 179,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_1d62adc8cec426794d1080b4",
+          "end": 280,
+          "page": null,
+          "start": 274,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_1d62adc8cec426794d1080b4",
+          "end": 297,
+          "page": null,
+          "start": 282,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_1d62adc8cec426794d1080b4",
+          "end": 33,
+          "page": null,
+          "start": 12,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_1d62adc8cec426794d1080b4",
+          "end": 342,
+          "page": null,
+          "start": 321,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_1d62adc8cec426794d1080b4",
+          "end": 358,
+          "page": null,
+          "start": 354,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_1d62adc8cec426794d1080b4",
+          "end": 395,
+          "page": null,
+          "start": 380,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_1d62adc8cec426794d1080b4",
+          "end": 440,
+          "page": null,
+          "start": 425,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_1d62adc8cec426794d1080b4",
+          "end": 464,
+          "page": null,
+          "start": 460,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_1d62adc8cec426794d1080b4",
+          "end": 520,
+          "page": null,
+          "start": 505,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_1d62adc8cec426794d1080b4",
+          "end": 552,
+          "page": null,
+          "start": 543,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_1d62adc8cec426794d1080b4",
+          "end": 603,
+          "page": null,
+          "start": 595,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_1d62adc8cec426794d1080b4",
+          "end": 696,
+          "page": null,
+          "start": 686,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_1d62adc8cec426794d1080b4",
+          "end": 742,
+          "page": null,
+          "start": 736,
+          "type": "Rule"
+        },
+        {
+          "document_id": "doc_1d62adc8cec426794d1080b4",
+          "end": 851,
+          "page": null,
+          "start": 830,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_1d62adc8cec426794d1080b4",
+          "end": 879,
+          "page": null,
+          "start": 863,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_1d62adc8cec426794d1080b4",
+          "end": 95,
+          "page": null,
+          "start": 84,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 155,
+          "page": null,
+          "start": 149,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 189,
+          "page": null,
+          "start": 179,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 280,
+          "page": null,
+          "start": 274,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 305,
+          "page": null,
+          "start": 282,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 305,
+          "page": null,
+          "start": 299,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 33,
+          "page": null,
+          "start": 12,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 350,
+          "page": null,
+          "start": 329,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 366,
+          "page": null,
+          "start": 362,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 411,
+          "page": null,
+          "start": 388,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 411,
+          "page": null,
+          "start": 405,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 464,
+          "page": null,
+          "start": 441,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 464,
+          "page": null,
+          "start": 458,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 488,
+          "page": null,
+          "start": 484,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 552,
+          "page": null,
+          "start": 529,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 552,
+          "page": null,
+          "start": 546,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 583,
+          "page": null,
+          "start": 575,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 634,
+          "page": null,
+          "start": 626,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 773,
+          "page": null,
+          "start": 767,
+          "type": "Rule"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 882,
+          "page": null,
+          "start": 861,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 910,
+          "page": null,
+          "start": 894,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_2e58e66334a604c33232f22a",
+          "end": 95,
+          "page": null,
+          "start": 84,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 155,
+          "page": null,
+          "start": 149,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 189,
+          "page": null,
+          "start": 179,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 280,
+          "page": null,
+          "start": 274,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 295,
+          "page": null,
+          "start": 282,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 33,
+          "page": null,
+          "start": 12,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 340,
+          "page": null,
+          "start": 319,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 356,
+          "page": null,
+          "start": 352,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 391,
+          "page": null,
+          "start": 378,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 434,
+          "page": null,
+          "start": 421,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 458,
+          "page": null,
+          "start": 454,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 512,
+          "page": null,
+          "start": 499,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 544,
+          "page": null,
+          "start": 535,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 595,
+          "page": null,
+          "start": 587,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 688,
+          "page": null,
+          "start": 678,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 734,
+          "page": null,
+          "start": 728,
+          "type": "Rule"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 843,
+          "page": null,
+          "start": 822,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 871,
+          "page": null,
+          "start": 855,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 95,
+          "page": null,
+          "start": 84,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 155,
+          "page": null,
+          "start": 149,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 189,
+          "page": null,
+          "start": 179,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 280,
+          "page": null,
+          "start": 274,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 323,
+          "page": null,
+          "start": 282,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 33,
+          "page": null,
+          "start": 12,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 368,
+          "page": null,
+          "start": 347,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 385,
+          "page": null,
+          "start": 380,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 448,
+          "page": null,
+          "start": 407,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 519,
+          "page": null,
+          "start": 478,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 544,
+          "page": null,
+          "start": 539,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 626,
+          "page": null,
+          "start": 585,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 657,
+          "page": null,
+          "start": 649,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 708,
+          "page": null,
+          "start": 700,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 801,
+          "page": null,
+          "start": 791,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 847,
+          "page": null,
+          "start": 841,
+          "type": "Rule"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 95,
+          "page": null,
+          "start": 84,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 956,
+          "page": null,
+          "start": 935,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 984,
+          "page": null,
+          "start": 968,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_7b11e4b05e4d021fcb84a6aa",
+          "end": 100,
+          "page": null,
+          "start": 94,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_7b11e4b05e4d021fcb84a6aa",
+          "end": 124,
+          "page": null,
+          "start": 120,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_7b11e4b05e4d021fcb84a6aa",
+          "end": 144,
+          "page": null,
+          "start": 136,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_7b11e4b05e4d021fcb84a6aa",
+          "end": 178,
+          "page": null,
+          "start": 168,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_7b11e4b05e4d021fcb84a6aa",
+          "end": 18,
+          "page": null,
+          "start": 0,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_7b11e4b05e4d021fcb84a6aa",
+          "end": 198,
+          "page": null,
+          "start": 180,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_7b11e4b05e4d021fcb84a6aa",
+          "end": 228,
+          "page": null,
+          "start": 210,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_7b11e4b05e4d021fcb84a6aa",
+          "end": 34,
+          "page": null,
+          "start": 30,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_7b11e4b05e4d021fcb84a6aa",
+          "end": 54,
+          "page": null,
+          "start": 36,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_7b11e4b05e4d021fcb84a6aa",
+          "end": 81,
+          "page": null,
+          "start": 75,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 155,
+          "page": null,
+          "start": 149,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 189,
+          "page": null,
+          "start": 179,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 280,
+          "page": null,
+          "start": 274,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 294,
+          "page": null,
+          "start": 282,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 33,
+          "page": null,
+          "start": 12,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 339,
+          "page": null,
+          "start": 318,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 355,
+          "page": null,
+          "start": 351,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 389,
+          "page": null,
+          "start": 377,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 431,
+          "page": null,
+          "start": 419,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 455,
+          "page": null,
+          "start": 451,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 508,
+          "page": null,
+          "start": 496,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 540,
+          "page": null,
+          "start": 531,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 591,
+          "page": null,
+          "start": 583,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 684,
+          "page": null,
+          "start": 674,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 730,
+          "page": null,
+          "start": 724,
+          "type": "Rule"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 839,
+          "page": null,
+          "start": 818,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 867,
+          "page": null,
+          "start": 851,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 95,
+          "page": null,
+          "start": 84,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 1017,
+          "page": null,
+          "start": 1001,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 155,
+          "page": null,
+          "start": 149,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 189,
+          "page": null,
+          "start": 179,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 280,
+          "page": null,
+          "start": 274,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 33,
+          "page": null,
+          "start": 12,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 331,
+          "page": null,
+          "start": 282,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 331,
+          "page": null,
+          "start": 325,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 376,
+          "page": null,
+          "start": 355,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 393,
+          "page": null,
+          "start": 388,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 464,
+          "page": null,
+          "start": 415,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 464,
+          "page": null,
+          "start": 458,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 543,
+          "page": null,
+          "start": 494,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 543,
+          "page": null,
+          "start": 537,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 568,
+          "page": null,
+          "start": 563,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 658,
+          "page": null,
+          "start": 609,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 658,
+          "page": null,
+          "start": 652,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 690,
+          "page": null,
+          "start": 681,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 741,
+          "page": null,
+          "start": 733,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 834,
+          "page": null,
+          "start": 824,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 880,
+          "page": null,
+          "start": 874,
+          "type": "Rule"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 95,
+          "page": null,
+          "start": 84,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 989,
+          "page": null,
+          "start": 968,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_ac57c28a530c5ad5f4b2169f",
+          "end": 155,
+          "page": null,
+          "start": 149,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_ac57c28a530c5ad5f4b2169f",
+          "end": 189,
+          "page": null,
+          "start": 179,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_ac57c28a530c5ad5f4b2169f",
+          "end": 280,
+          "page": null,
+          "start": 274,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_ac57c28a530c5ad5f4b2169f",
+          "end": 296,
+          "page": null,
+          "start": 282,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_ac57c28a530c5ad5f4b2169f",
+          "end": 33,
+          "page": null,
+          "start": 12,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_ac57c28a530c5ad5f4b2169f",
+          "end": 341,
+          "page": null,
+          "start": 320,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_ac57c28a530c5ad5f4b2169f",
+          "end": 357,
+          "page": null,
+          "start": 353,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_ac57c28a530c5ad5f4b2169f",
+          "end": 393,
+          "page": null,
+          "start": 379,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_ac57c28a530c5ad5f4b2169f",
+          "end": 437,
+          "page": null,
+          "start": 423,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_ac57c28a530c5ad5f4b2169f",
+          "end": 461,
+          "page": null,
+          "start": 457,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_ac57c28a530c5ad5f4b2169f",
+          "end": 516,
+          "page": null,
+          "start": 502,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_ac57c28a530c5ad5f4b2169f",
+          "end": 548,
+          "page": null,
+          "start": 539,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_ac57c28a530c5ad5f4b2169f",
+          "end": 599,
+          "page": null,
+          "start": 591,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_ac57c28a530c5ad5f4b2169f",
+          "end": 692,
+          "page": null,
+          "start": 682,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_ac57c28a530c5ad5f4b2169f",
+          "end": 738,
+          "page": null,
+          "start": 732,
+          "type": "Rule"
+        },
+        {
+          "document_id": "doc_ac57c28a530c5ad5f4b2169f",
+          "end": 847,
+          "page": null,
+          "start": 826,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_ac57c28a530c5ad5f4b2169f",
+          "end": 875,
+          "page": null,
+          "start": 859,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_ac57c28a530c5ad5f4b2169f",
+          "end": 95,
+          "page": null,
+          "start": 84,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_ae4fe8839079fdf171c0959b",
+          "end": 155,
+          "page": null,
+          "start": 149,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_ae4fe8839079fdf171c0959b",
+          "end": 189,
+          "page": null,
+          "start": 179,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_ae4fe8839079fdf171c0959b",
+          "end": 280,
+          "page": null,
+          "start": 274,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_ae4fe8839079fdf171c0959b",
+          "end": 293,
+          "page": null,
+          "start": 282,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_ae4fe8839079fdf171c0959b",
+          "end": 33,
+          "page": null,
+          "start": 12,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_ae4fe8839079fdf171c0959b",
+          "end": 338,
+          "page": null,
+          "start": 317,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_ae4fe8839079fdf171c0959b",
+          "end": 355,
+          "page": null,
+          "start": 350,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_ae4fe8839079fdf171c0959b",
+          "end": 388,
+          "page": null,
+          "start": 377,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_ae4fe8839079fdf171c0959b",
+          "end": 429,
+          "page": null,
+          "start": 418,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_ae4fe8839079fdf171c0959b",
+          "end": 454,
+          "page": null,
+          "start": 449,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_ae4fe8839079fdf171c0959b",
+          "end": 506,
+          "page": null,
+          "start": 495,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_ae4fe8839079fdf171c0959b",
+          "end": 538,
+          "page": null,
+          "start": 529,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_ae4fe8839079fdf171c0959b",
+          "end": 589,
+          "page": null,
+          "start": 581,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_ae4fe8839079fdf171c0959b",
+          "end": 682,
+          "page": null,
+          "start": 672,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_ae4fe8839079fdf171c0959b",
+          "end": 728,
+          "page": null,
+          "start": 722,
+          "type": "Rule"
+        },
+        {
+          "document_id": "doc_ae4fe8839079fdf171c0959b",
+          "end": 837,
+          "page": null,
+          "start": 816,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_ae4fe8839079fdf171c0959b",
+          "end": 865,
+          "page": null,
+          "start": 849,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_ae4fe8839079fdf171c0959b",
+          "end": 95,
+          "page": null,
+          "start": 84,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 155,
+          "page": null,
+          "start": 149,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 189,
+          "page": null,
+          "start": 179,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 280,
+          "page": null,
+          "start": 274,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 302,
+          "page": null,
+          "start": 282,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 302,
+          "page": null,
+          "start": 296,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 33,
+          "page": null,
+          "start": 12,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 347,
+          "page": null,
+          "start": 326,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 363,
+          "page": null,
+          "start": 359,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 405,
+          "page": null,
+          "start": 385,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 405,
+          "page": null,
+          "start": 399,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 455,
+          "page": null,
+          "start": 435,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 455,
+          "page": null,
+          "start": 449,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 479,
+          "page": null,
+          "start": 475,
+          "type": "Board"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 540,
+          "page": null,
+          "start": 520,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 540,
+          "page": null,
+          "start": 534,
+          "type": "School"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 571,
+          "page": null,
+          "start": 563,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 622,
+          "page": null,
+          "start": 614,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 715,
+          "page": null,
+          "start": 705,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 761,
+          "page": null,
+          "start": 755,
+          "type": "Rule"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 870,
+          "page": null,
+          "start": 849,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 898,
+          "page": null,
+          "start": 882,
+          "type": "Circular"
+        },
+        {
+          "document_id": "doc_e5ac370214efe2562ed68243",
+          "end": 95,
+          "page": null,
+          "start": 84,
+          "type": "Circular"
+        }
+      ]
+    },
+    {
+      "name": "llm_greedy_1",
+      "temperature": 0,
+      "exact": {
+        "Board": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 20,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Circular": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 52,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Date": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 17,
+          "precision": 1.0,
+          "recall": 0.10526315789473684,
+          "f1": 0.1904761904761905
+        },
+        "Locality": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Quantity": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 28,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Rule": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 9,
+          "precision": 1.0,
+          "recall": 0.1,
+          "f1": 0.18181818181818182
+        },
+        "School": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 56,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "relaxed": {
+        "Board": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 20,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Circular": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 52,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Date": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 17,
+          "precision": 1.0,
+          "recall": 0.10526315789473684,
+          "f1": 0.1904761904761905
+        },
+        "Locality": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Quantity": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 25,
+          "precision": 1.0,
+          "recall": 0.10714285714285714,
+          "f1": 0.19354838709677416
+        },
+        "Rule": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 9,
+          "precision": 1.0,
+          "recall": 0.1,
+          "f1": 0.18181818181818182
+        },
+        "School": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 56,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "failures": [
+        {
+          "chunk_id": "chunk_eae0a0e8db3001fa2345d5de",
+          "error_type": "ValueError"
+        }
+      ],
+      "timing": [
+        {
+          "chunk_id": "chunk_17460282cdfaba03180a1c36",
+          "seconds": 2.5152156999993167,
+          "usage": {
+            "elapsed_seconds": 2.514810700000453,
+            "eval_count": 62,
+            "tokens_per_second": 24.65394313774346,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.2738835093633138
+          }
+        },
+        {
+          "chunk_id": "chunk_5bf1c3356c26c10f0c079d86",
+          "seconds": 2.5317527999995946,
+          "usage": {
+            "elapsed_seconds": 2.531429599999683,
+            "eval_count": 32,
+            "tokens_per_second": 12.64107838511646,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.23845774158262145
+          }
+        },
+        {
+          "chunk_id": "chunk_903006d6e817eb257650ca0b",
+          "seconds": 3.098971999999776,
+          "usage": {
+            "elapsed_seconds": 3.0986037000002398,
+            "eval_count": 56,
+            "tokens_per_second": 18.07265640326824,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.218045076342392
+          }
+        },
+        {
+          "chunk_id": "chunk_80b848348b7d403586b4b83b",
+          "seconds": 7.766474799998832,
+          "usage": {
+            "elapsed_seconds": 7.76527569999962,
+            "eval_count": 181,
+            "tokens_per_second": 23.308895523182628,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.12013055426386313
+          }
+        },
+        {
+          "chunk_id": "chunk_82925b5d841196e02fcd3b46",
+          "seconds": 5.530079000000114,
+          "usage": {
+            "elapsed_seconds": 2.817293799998879,
+            "eval_count": 73,
+            "tokens_per_second": 25.91139056921541,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.32243778793157635
+          }
+        },
+        {
+          "chunk_id": "chunk_ba863367a9132d68db20d81c",
+          "seconds": 6.2655049999993935,
+          "usage": {
+            "elapsed_seconds": 6.2640587000005326,
+            "eval_count": 147,
+            "tokens_per_second": 23.467213038726392,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.13849771422925788
+          }
+        },
+        {
+          "chunk_id": "chunk_e22546a0cd42e92a13074a97",
+          "seconds": 1.953145700001187,
+          "usage": {
+            "elapsed_seconds": 1.9528617000014492,
+            "eval_count": 28,
+            "tokens_per_second": 14.337932890987222,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.24089076694277115
+          }
+        },
+        {
+          "chunk_id": "chunk_49b1839b8bd684f26f1b1571",
+          "seconds": 2.2126306999998633,
+          "usage": {
+            "elapsed_seconds": 2.2122542999986763,
+            "eval_count": 28,
+            "tokens_per_second": 12.656772776988953,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.23552542094516785
+          }
+        },
+        {
+          "chunk_id": "chunk_2324d897e70bfecdc9763d2e",
+          "seconds": 6.913807000000816,
+          "usage": {
+            "elapsed_seconds": 6.912599900000714,
+            "eval_count": 173,
+            "tokens_per_second": 25.026763085186246,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.16744183273961624
+          }
+        },
+        {
+          "chunk_id": "chunk_19b41bbcb546e7c22796ebef",
+          "seconds": 1.9721491000000242,
+          "usage": {
+            "elapsed_seconds": 1.9718737000002875,
+            "eval_count": 29,
+            "tokens_per_second": 14.706824275812275,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.22359343318327052
+          }
+        },
+        {
+          "chunk_id": "chunk_17df9506dff06178c9534a71",
+          "seconds": 3.758081400001174,
+          "usage": {
+            "elapsed_seconds": 3.7575963999988744,
+            "eval_count": 81,
+            "tokens_per_second": 21.556333192150245,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.16916870978237467
+          }
+        },
+        {
+          "chunk_id": "chunk_eae0a0e8db3001fa2345d5de",
+          "seconds": 4.346236699999281,
+          "usage": {
+            "elapsed_seconds": 1.9563675000008516,
+            "eval_count": 61,
+            "tokens_per_second": 31.180235819687994,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.24534594847279753
+          }
+        }
+      ],
+      "predicted": [
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 538,
+          "page": null,
+          "start": 535,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 734,
+          "page": null,
+          "start": 728,
+          "type": "Rule"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 820,
+          "page": null,
+          "start": 812,
+          "type": "Locality"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 189,
+          "page": null,
+          "start": 179,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 651,
+          "page": null,
+          "start": 649,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 801,
+          "page": null,
+          "start": 791,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 933,
+          "page": null,
+          "start": 925,
+          "type": "Locality"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 534,
+          "page": null,
+          "start": 531,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 816,
+          "page": null,
+          "start": 808,
+          "type": "Locality"
+        }
+      ]
+    },
+    {
+      "name": "llm_greedy_2",
+      "temperature": 0,
+      "exact": {
+        "Board": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 20,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Circular": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 52,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Date": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 15,
+          "precision": 1.0,
+          "recall": 0.21052631578947367,
+          "f1": 0.34782608695652173
+        },
+        "Locality": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Quantity": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 28,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Rule": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 8,
+          "precision": 1.0,
+          "recall": 0.2,
+          "f1": 0.33333333333333337
+        },
+        "School": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 56,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "relaxed": {
+        "Board": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 20,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Circular": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 52,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Date": {
+          "tp": 4,
+          "fp": 0,
+          "fn": 15,
+          "precision": 1.0,
+          "recall": 0.21052631578947367,
+          "f1": 0.34782608695652173
+        },
+        "Locality": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Quantity": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 25,
+          "precision": 1.0,
+          "recall": 0.10714285714285714,
+          "f1": 0.19354838709677416
+        },
+        "Rule": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 8,
+          "precision": 1.0,
+          "recall": 0.2,
+          "f1": 0.33333333333333337
+        },
+        "School": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 56,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "failures": [
+        {
+          "chunk_id": "chunk_82925b5d841196e02fcd3b46",
+          "error_type": "ValueError"
+        }
+      ],
+      "timing": [
+        {
+          "chunk_id": "chunk_17460282cdfaba03180a1c36",
+          "seconds": 2.5516703000012058,
+          "usage": {
+            "elapsed_seconds": 2.5513816000002407,
+            "eval_count": 68,
+            "tokens_per_second": 26.65222638588974,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.260198338057488
+          }
+        },
+        {
+          "chunk_id": "chunk_5bf1c3356c26c10f0c079d86",
+          "seconds": 2.168305200000759,
+          "usage": {
+            "elapsed_seconds": 2.168072000000393,
+            "eval_count": 32,
+            "tokens_per_second": 14.759657428348412,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.23845774158262145
+          }
+        },
+        {
+          "chunk_id": "chunk_903006d6e817eb257650ca0b",
+          "seconds": 1.0264957999988837,
+          "usage": {
+            "elapsed_seconds": 1.0262490999994043,
+            "eval_count": 30,
+            "tokens_per_second": 29.23266875461076,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.23473070238647628
+          }
+        },
+        {
+          "chunk_id": "chunk_80b848348b7d403586b4b83b",
+          "seconds": 6.0144342000003235,
+          "usage": {
+            "elapsed_seconds": 6.013721100000112,
+            "eval_count": 181,
+            "tokens_per_second": 30.097837427145837,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.12030625227130456
+          }
+        },
+        {
+          "chunk_id": "chunk_82925b5d841196e02fcd3b46",
+          "seconds": 4.746448300000338,
+          "usage": {
+            "elapsed_seconds": 2.3044597999996768,
+            "eval_count": 67,
+            "tokens_per_second": 29.074058918280716,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.318071101315086
+          }
+        },
+        {
+          "chunk_id": "chunk_ba863367a9132d68db20d81c",
+          "seconds": 7.8370419000002585,
+          "usage": {
+            "elapsed_seconds": 7.835995900000853,
+            "eval_count": 211,
+            "tokens_per_second": 26.927017662168126,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.1150497784309815
+          }
+        },
+        {
+          "chunk_id": "chunk_e22546a0cd42e92a13074a97",
+          "seconds": 0.9209361000011995,
+          "usage": {
+            "elapsed_seconds": 0.9207626999996137,
+            "eval_count": 28,
+            "tokens_per_second": 30.409572412101127,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.22799960818762038
+          }
+        },
+        {
+          "chunk_id": "chunk_49b1839b8bd684f26f1b1571",
+          "seconds": 0.9675836999995227,
+          "usage": {
+            "elapsed_seconds": 0.967363400000977,
+            "eval_count": 28,
+            "tokens_per_second": 28.94465513164104,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.2332405909320008
+          }
+        },
+        {
+          "chunk_id": "chunk_2324d897e70bfecdc9763d2e",
+          "seconds": 5.586934699998892,
+          "usage": {
+            "elapsed_seconds": 5.5859970999990765,
+            "eval_count": 173,
+            "tokens_per_second": 30.9702989283737,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.1674405024953479
+          }
+        },
+        {
+          "chunk_id": "chunk_19b41bbcb546e7c22796ebef",
+          "seconds": 0.9493301000002248,
+          "usage": {
+            "elapsed_seconds": 0.9491364999994403,
+            "eval_count": 29,
+            "tokens_per_second": 30.554087847234936,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.2326473227604091
+          }
+        },
+        {
+          "chunk_id": "chunk_17df9506dff06178c9534a71",
+          "seconds": 1.1956657999999152,
+          "usage": {
+            "elapsed_seconds": 1.1954330000007758,
+            "eval_count": 38,
+            "tokens_per_second": 31.787645146131435,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.18185037652833552
+          }
+        },
+        {
+          "chunk_id": "chunk_eae0a0e8db3001fa2345d5de",
+          "seconds": 2.288155199999892,
+          "usage": {
+            "elapsed_seconds": 2.2876418000014382,
+            "eval_count": 60,
+            "tokens_per_second": 26.227882354642357,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.24884906956249372
+          }
+        }
+      ],
+      "predicted": [
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 538,
+          "page": null,
+          "start": 535,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 734,
+          "page": null,
+          "start": 728,
+          "type": "Rule"
+        },
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 820,
+          "page": null,
+          "start": 812,
+          "type": "Locality"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 189,
+          "page": null,
+          "start": 179,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 651,
+          "page": null,
+          "start": 649,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 801,
+          "page": null,
+          "start": 791,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_4c1ae0ceca4c56508052ae19",
+          "end": 933,
+          "page": null,
+          "start": 925,
+          "type": "Locality"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 189,
+          "page": null,
+          "start": 179,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 534,
+          "page": null,
+          "start": 531,
+          "type": "Quantity"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 684,
+          "page": null,
+          "start": 674,
+          "type": "Date"
+        },
+        {
+          "document_id": "doc_a0d0396ef5d0cd2b7a2f6b9e",
+          "end": 816,
+          "page": null,
+          "start": 808,
+          "type": "Locality"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 880,
+          "page": null,
+          "start": 874,
+          "type": "Rule"
+        }
+      ],
+      "identical_to_first_greedy": false
+    },
+    {
+      "name": "llm_sampled",
+      "temperature": 0.7,
+      "exact": {
+        "Board": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 20,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Circular": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 52,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 19,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Locality": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Quantity": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 28,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Rule": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 9,
+          "precision": 1.0,
+          "recall": 0.1,
+          "f1": 0.18181818181818182
+        },
+        "School": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 56,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "relaxed": {
+        "Board": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 20,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Circular": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 52,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Date": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 19,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Locality": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Quantity": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 28,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Rule": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 9,
+          "precision": 1.0,
+          "recall": 0.1,
+          "f1": 0.18181818181818182
+        },
+        "School": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 56,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "failures": [
+        {
+          "chunk_id": "chunk_82925b5d841196e02fcd3b46",
+          "error_type": "ValueError"
+        }
+      ],
+      "timing": [
+        {
+          "chunk_id": "chunk_17460282cdfaba03180a1c36",
+          "seconds": 16.87894640000013,
+          "usage": {
+            "elapsed_seconds": 16.877189999999246,
+            "eval_count": 509,
+            "tokens_per_second": 30.159048988606678,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.09691683846532895
+          }
+        },
+        {
+          "chunk_id": "chunk_5bf1c3356c26c10f0c079d86",
+          "seconds": 2.3841475999997783,
+          "usage": {
+            "elapsed_seconds": 2.3838016000008793,
+            "eval_count": 72,
+            "tokens_per_second": 30.20385589135163,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.19404790310343462
+          }
+        },
+        {
+          "chunk_id": "chunk_903006d6e817eb257650ca0b",
+          "seconds": 1.0493108999999095,
+          "usage": {
+            "elapsed_seconds": 1.0491027999996732,
+            "eval_count": 30,
+            "tokens_per_second": 28.59586305556457,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.2939645811258174
+          }
+        },
+        {
+          "chunk_id": "chunk_80b848348b7d403586b4b83b",
+          "seconds": 1.1550106999984564,
+          "usage": {
+            "elapsed_seconds": 1.1547392000011314,
+            "eval_count": 34,
+            "tokens_per_second": 29.443877890320763,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.33491744368631643
+          }
+        },
+        {
+          "chunk_id": "chunk_82925b5d841196e02fcd3b46",
+          "seconds": 3.662168400000155,
+          "usage": {
+            "elapsed_seconds": 2.7297044999995705,
+            "eval_count": 85,
+            "tokens_per_second": 31.13890166500197,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.41299772822968034
+          }
+        },
+        {
+          "chunk_id": "chunk_ba863367a9132d68db20d81c",
+          "seconds": 5.672780499999135,
+          "usage": {
+            "elapsed_seconds": 5.672219799998857,
+            "eval_count": 137,
+            "tokens_per_second": 24.152801695030863,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.22327695288393318
+          }
+        },
+        {
+          "chunk_id": "chunk_e22546a0cd42e92a13074a97",
+          "seconds": 2.4716335000011895,
+          "usage": {
+            "elapsed_seconds": 2.471339599998828,
+            "eval_count": 71,
+            "tokens_per_second": 28.72935795632202,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.2265152121457625
+          }
+        },
+        {
+          "chunk_id": "chunk_49b1839b8bd684f26f1b1571",
+          "seconds": 2.5986264000002848,
+          "usage": {
+            "elapsed_seconds": 2.5983251000016026,
+            "eval_count": 81,
+            "tokens_per_second": 31.173928158547227,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.23235793503286328
+          }
+        },
+        {
+          "chunk_id": "chunk_2324d897e70bfecdc9763d2e",
+          "seconds": 2.5982571999993525,
+          "usage": {
+            "elapsed_seconds": 2.597792099999424,
+            "eval_count": 80,
+            "tokens_per_second": 30.795381970719575,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.2136033030011923
+          }
+        },
+        {
+          "chunk_id": "chunk_19b41bbcb546e7c22796ebef",
+          "seconds": 2.6869098999995913,
+          "usage": {
+            "elapsed_seconds": 2.686509600000136,
+            "eval_count": 82,
+            "tokens_per_second": 30.522876225715276,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.2538901888088237
+          }
+        },
+        {
+          "chunk_id": "chunk_17df9506dff06178c9534a71",
+          "seconds": 1.2382424999996147,
+          "usage": {
+            "elapsed_seconds": 1.238001700001405,
+            "eval_count": 38,
+            "tokens_per_second": 30.694626671317877,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.1873549828203702
+          }
+        },
+        {
+          "chunk_id": "chunk_eae0a0e8db3001fa2345d5de",
+          "seconds": 2.2655880999991496,
+          "usage": {
+            "elapsed_seconds": 2.2652116999997816,
+            "eval_count": 61,
+            "tokens_per_second": 26.92905038412343,
+            "throughput_scope": "end-to-end request, includes prompt processing",
+            "decoding": {
+              "temperature": 0.7,
+              "top_p": 0.9,
+              "top_k": 40,
+              "seed": 42,
+              "max_tokens": 1200
+            },
+            "log_probabilities_supported": true,
+            "mean_token_log_probability": -0.29403978729018876
+          }
+        }
+      ],
+      "predicted": [
+        {
+          "document_id": "doc_4b3f928bf7db87f7490b86f9",
+          "end": 820,
+          "page": null,
+          "start": 812,
+          "type": "Locality"
+        },
+        {
+          "document_id": "doc_a670e565b21934e7a29f871b",
+          "end": 880,
+          "page": null,
+          "start": 874,
+          "type": "Rule"
+        }
+      ]
+    }
+  ]
+}

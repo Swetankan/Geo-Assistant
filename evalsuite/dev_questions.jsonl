@@ -1,0 +1,10 @@
+{"id": "syn_dev_01", "query": "How many seats does the fictional notice give Vivekananda High School?", "required_facts": ["Vivekananda High School hypothetically offers 70 seats"], "synthetic": true}
+{"id": "syn_dev_02", "query": "Which board is named for Railway Mixed School?", "required_facts": ["Railway Mixed School is affiliated with ICSE"], "synthetic": true}
+{"id": "syn_dev_03", "query": "When is the fictional application deadline for Pannalal Institute of Secondary Education?", "required_facts": ["Applications hypothetically close on 2026-04-30"], "synthetic": true}
+{"id": "syn_dev_04", "query": "What minimum age does the notice state for DAV Lalpania?", "required_facts": ["at least 14 years"], "synthetic": true}
+{"id": "syn_dev_05", "query": "What invented cutoff is listed for BSS collegiate?", "required_facts": ["invented academic cut-off is 75% marks"], "synthetic": true}
+{"id": "syn_dev_06", "query": "Which circular mentions MJK College?", "required_facts": ["CIRC-2026-06"], "synthetic": true}
+{"id": "syn_dev_07", "query": "Which rule is listed for Midnapore ITI?", "required_facts": ["Rule 7"], "synthetic": true}
+{"id": "syn_dev_08", "query": "Which fictional locality is given for Dinhata College?", "required_facts": ["Sector 8"], "synthetic": true}
+{"id": "syn_dev_09", "query": "Which earlier circular is superseded in the notice for Baranagar Ramakrishna Mission Ashrama High School?", "required_facts": ["Circular 2025-09"], "synthetic": true}
+{"id": "syn_dev_10", "query": "What OSM ID identifies CARMEL PUBLIC SCHOOL in the supplied map?", "required_facts": ["287430896"], "synthetic": true}
